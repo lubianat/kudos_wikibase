@@ -19,6 +19,7 @@ nodes_on_wikibase = get_nodes_on_kudos_wikibase()
 
 # loop through each entity in the KG
 for entity in kg:
+    PROPOSAL_IDENTIFIER = "Q1487"
     try:
         # get the Wikibase ID of the subject node
         subject = nodes_on_wikibase[entity]
@@ -28,8 +29,18 @@ for entity in kg:
             value = nodes_on_wikibase[relation[0]]
             # get the property ID of the current relation
             prop_nr = properties_in_wikibase[relation[1]]
-            # create a statement for the current relation
-            relation_statement = wdi_core.WDItemID(value=value, prop_nr=prop_nr)
+            # create the qualifier object
+            reference = wdi_core.WDItemID(
+                value=PROPOSAL_IDENTIFIER, prop_nr="P591", is_reference=True
+            )
+            # create a statement for the current relation with the qualifier
+            relation_statement = wdi_core.WDItemID(
+                value=value,
+                prop_nr=prop_nr,
+                references=[
+                    [reference]
+                ],  # Yes, it is a list of lists; multiple reference blocks might be present.
+            )
             # get the existing data for the item
             item = wdi_core.WDItemEngine(
                 wd_item_id=subject,
@@ -41,6 +52,7 @@ for entity in kg:
             # add the statement to the item
             item.update([relation_statement])
             item.write(login=wd_login)
+            print("ok")
             time.sleep(0.2)
     except KeyError as e:
         print(e)
