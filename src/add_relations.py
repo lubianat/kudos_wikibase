@@ -9,9 +9,9 @@ HERE = Path(__file__).parent.resolve()
 DATA = HERE.parent.joinpath("data").resolve()
 
 # Define the knowledge graph
-base_kg = json.loads(DATA.joinpath("index_kg.json").read_text())
-kg = base_kg["docstore"]["docs"]["a7ac82a6-f7e8-4435-9622-f1bca3fe2315"]["rel_map"]
-
+base_kg = json.loads(DATA.joinpath("gpt_4_test.json_no_dubli.json").read_text())
+kg = base_kg["index_struct"]["rel_map"]
+table_of_doc_ids = base_kg["index_struct"]["table"]
 properties_in_wikibase = get_properties_in_wikibase()
 wd_login = wdi_login.WDLogin(user=WD_USER, pwd=WD_PASS, mediawiki_api_url=api_url)
 
@@ -27,6 +27,13 @@ for entity in kg:
         for relation in kg[entity]:
             # get the Wikibase ID of the object node
             value = nodes_on_wikibase[relation[0]]
+
+            subject_doc_id = table_of_doc_ids[entity]
+            object_doc_id = table_of_doc_ids[relation[0]]
+            if subject_doc_id == object_doc_id:
+                # TODO
+                # ADD INFERRED STATEMENT from triple property
+                pass
             # get the property ID of the current relation
             prop_nr = properties_in_wikibase[relation[1]]
             # create the qualifier object
