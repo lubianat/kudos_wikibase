@@ -1,0 +1,757 @@
+{
+  "index_struct": {
+    "__type__": "kg",
+    "__data__": {
+      "index_id": "62eb300c-ccba-4a6c-8b97-20198ec1fb7b",
+      "summary": null,
+      "table": {
+        "Agora": ["2804f71d-6b27-4380-b301-6352284f4b13", "4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81", "0703d186-857e-49ca-9383-8d9e8f7e286d", "6331689c-bee2-4626-a940-1c3580e60176"],
+        "governance efficacy": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "Nouns": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "Prop House": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd", "04496da4-6c07-4ae9-be12-eaf0a41984c4", "6331689c-bee2-4626-a940-1c3580e60176", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "MVP": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "delegates": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "nouns": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "builders": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "4a41496d-88e2-4e13-8473-ab23c5fe3843", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "delegation": ["04496da4-6c07-4ae9-be12-eaf0a41984c4", "2804f71d-6b27-4380-b301-6352284f4b13", "4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "hub": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "community": ["7f966c95-454d-4659-9858-2b57e9c01631", "2fd3280x4-005a-49d6-8c45-3fc1c6b6d933", "91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "d7b6aa9a-2699-41a9-b586-76be9ebbd98b", "2804f71d-6b27-4380-b301-6352284f4b13", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "Nouns DAO": ["04496da4-6c07-4ae9-be12-eaf0a41984c4", "4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "token holders": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "6331689c-bee2-4626-a940-1c3580e60176", "7676efb6-3f0d-447c-a0ef-149983a52708", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "voting": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "engaged delegates": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "qualified delegates": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "high leverage": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "decision making": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "time demand": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "good voter": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "votes": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "proposal": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "deploy beta": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "August 31": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "Prop House mandates": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "voters": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "invisible activity": ["7676efb6-3f0d-447c-a0ef-149983a52708", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "quarter": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "improve governance efficacy": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "less than one month": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "what they want to see": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "supporters for their prop": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "17 statements from delegates": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "16 statements from builders": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "5 nouns": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "delegated 5 nouns": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "hub for delegation": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "governance efficacy of Nouns": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "driving delegation": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "high leverage activity": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "participate to required degree": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "highest leverage activity": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "3 months": ["04496da4-6c07-4ae9-be12-eaf0a41984c4", "915e3561-afda-4bd3-8f35-68c7bff67d46", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "delegate platform": ["0703d186-857e-49ca-9383-8d9e8f7e286d", "2804f71d-6b27-4380-b301-6352284f4b13"],
+        "decision making of Nouns DAO": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "into visible activity": ["2804f71d-6b27-4380-b301-6352284f4b13"],
+        "transparency": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "quality of decision making": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708"],
+        "participate to degree required": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708"],
+        "invest in": ["7676efb6-3f0d-447c-a0ef-149983a52708"],
+        "constant issuance": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708"],
+        "governance engagement downwards": ["7676efb6-3f0d-447c-a0ef-149983a52708"],
+        "delegation client": ["04496da4-6c07-4ae9-be12-eaf0a41984c4", "4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "programs and mechanisms": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd", "7676efb6-3f0d-447c-a0ef-149983a52708"],
+        "incentives": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "effective governance": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "7676efb6-3f0d-447c-a0ef-149983a52708", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "incentive programs": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81", "7676efb6-3f0d-447c-a0ef-149983a52708", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "best one": ["7676efb6-3f0d-447c-a0ef-149983a52708", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "funding": ["7676efb6-3f0d-447c-a0ef-149983a52708"],
+        "quarter of development": ["04496da4-6c07-4ae9-be12-eaf0a41984c4", "7676efb6-3f0d-447c-a0ef-149983a52708"],
+        "behind the scenes activity": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "17 statements": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "125 nouns": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "16 statements": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "Proposal": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "incentivize effective governance": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "mechanism": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "pitfalls": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "series of small scale incentive programs": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "key areas": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "focus areas": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "programs": ["04496da4-6c07-4ae9-be12-eaf0a41984c4", "4a41496d-88e2-4e13-8473-ab23c5fe3843", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81", "0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "keep developing": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "built MVP": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "funded on August 31": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "built delegate platform": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "seen 17 statements from delegates": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "seen 16 statements from builders": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "5 nouns delegated via Agora": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "proposal passed to deploy a beta": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "created hub": ["0703d186-857e-49ca-9383-8d9e8f7e286d"],
+        "friction": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "mechanisms": ["04496da4-6c07-4ae9-be12-eaf0a41984c4", "4a41496d-88e2-4e13-8473-ab23c5fe3843", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "incentivizing effective governance": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "degree required": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "trending downwards": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "effectiveness of Nouns DAO": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "meaningful delegation": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "qualified and engaged delegates": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "increasing delegation": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "participation": ["04496da4-6c07-4ae9-be12-eaf0a41984c4", "4a41496d-88e2-4e13-8473-ab23c5fe3843", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "improve delegation client": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "invest in programs": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "invest in mechanisms": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "focus on key areas": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "drive meaningful delegation": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "invest in qualified and engaged delegates": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "increase delegation": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "increase participation": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "high": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "reduce friction": ["4a41496d-88e2-4e13-8473-ab23c5fe3843"],
+        "provide transparency": ["4a41496d-88e2-4e13-8473-ab23c5fe3843", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "continue": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "designed": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "incentive designs": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "find best mechanism": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "Agora app": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd", "04496da4-6c07-4ae9-be12-eaf0a41984c4", "6331689c-bee2-4626-a940-1c3580e60176", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "best experience": ["6331689c-bee2-4626-a940-1c3580e60176", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "proposals view": ["6331689c-bee2-4626-a940-1c3580e60176", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "Nouns governance participants": ["6331689c-bee2-4626-a940-1c3580e60176", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "next months": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "client": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "features": ["6331689c-bee2-4626-a940-1c3580e60176", "5fb8d81c-cd86-49ee-971c-7458c2e6fb81", "7f966c95-454d-4659-9858-2b57e9c01631"],
+        "reasons delegated": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "effectively": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "recognized": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "series": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "governance": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "frictionless experience": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "best mechanism": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "best experience for participants": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "best experience for governance": ["5fb8d81c-cd86-49ee-971c-7458c2e6fb81"],
+        "more robust governance metrics": ["6331689c-bee2-4626-a940-1c3580e60176"],
+        "builders and voters": ["6331689c-bee2-4626-a940-1c3580e60176"],
+        "Tally & nouns.wtf": ["6331689c-bee2-4626-a940-1c3580e60176"],
+        "outcomes": ["6331689c-bee2-4626-a940-1c3580e60176"],
+        "full fledged Agora app": ["6331689c-bee2-4626-a940-1c3580e60176"],
+        "Yitong": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "project lead & designer": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Vector DAO": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Coinbase": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Nouns Vision": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "0xcaff": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "v1 of Agora": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Tom Taubkin": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "several defi projects": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Mrtn": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "nounlets": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Agora on lil nouns": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd", "04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "nouns.builder": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd", "04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "Google": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd", "04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "The team": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "210 ETH to the team": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "20 ETH to incentivize voter participation": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "The request": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "a quarter of development": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "the delegation client": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "delegation and participation": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "the Agora app": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "a more powerful version of Tally & nouns.wtf": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "voting and delegating": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Philz": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "a coffee shop": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Berkeley": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "1982": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "getting builders and voters to participate": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Prop House's": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "was due to investment in getting builders and voters to participate": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Delegate drive program": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "recognized as a key ingredient of Prop House's success": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "being operated to get token holders and voters to participate on Agora": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Outcomes in 4 months": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "a full fledged Agora app": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "strong conviction around the most effective mechanism to incentivize voter turnout": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "more delegates and delegation from the delegate drive program and mechanism experiments": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "Proposal #1": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "the document source": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "a proposal": ["70730819-a75a-4dd0-bea1-5a4bc0c595fd"],
+        "team": ["04496da4-6c07-4ae9-be12-eaf0a41984c4", "d7b6aa9a-2699-41a9-b586-76be9ebbd98b", "7f966c95-454d-4659-9858-2b57e9c01631", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "210 ETH": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "20 ETH": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "255 ETH": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "request": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "better features": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "next step": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "effectiveness": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "worthwhile": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "investment": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "proliferate growth": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "proliferate prosperity": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "Nouns project": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "long-term growth": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "long-term prosperity": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "plan": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "funds": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "in order": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "change": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "need to see": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "via Prop House": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "governance historian": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "voter participation": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "ETH": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "cryptocurrency": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "being requested": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "to community": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "participation incentives": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "cost": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "7/10": ["04496da4-6c07-4ae9-be12-eaf0a41984c4"],
+        "2022-11-03": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "Proposal #2": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "Proposal #15": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "The Nouns AI Pod": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "generating AI-generated rich media": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "empowering Roko to be an AI secretary/assistant for the DAO": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "empowering other pods": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "Roko": ["915e3561-afda-4bd3-8f35-68c7bff67d46", "91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "an AI secretary/assistant for the DAO": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "monetization/expansion in mind": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "initial AI residency": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "creating The Nouns AI Pod": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "this prop": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "resident AI researchers": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "tools to generate Nounish rich media": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "the community at large": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "community at large": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "generating Nounish rich media": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "ai-based team drafting for e-sports": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "planning events for otg": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "initial small grant proposal": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "https://discourse.nouns.wtf/t/small-grants-the-nouns-ecosystem-and-ai/1929": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "Honk's extension post": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "unknown": ["915e3561-afda-4bd3-8f35-68c7bff67d46"],
+        "media tools": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "creativity": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "pods": ["7f966c95-454d-4659-9858-2b57e9c01631", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "e-sports team drafting": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "event planning team": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "tools": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "monetization in mind": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "expansion in mind": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "research": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "for small grant proposal": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "website": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "on staging.roko.dev": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "on website": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "to accomplish two sprints": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "first sprint": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "proposals into summaries/reviews": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "second sprint": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "AI possibilities": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "in weekly sessions": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "about 30 people": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "weekly sessions": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "developments": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "project": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b", "7f966c95-454d-4659-9858-2b57e9c01631"],
+        "goal": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "thanks to community and contributors": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "Honk": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "to project": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "Evets.eth": ["7f966c95-454d-4659-9858-2b57e9c01631"],
+        "live website": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "building production ready webapp": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "two sprints": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "sprints": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "demonstrating possibilities of AI": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "key contributors": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "provided support": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "sessions": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "about 30 people regularly attended": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "fundamentals and cutting edge developments in machine learning": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "pipeline": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "Twitter": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "language model": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "bulleted summary": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "model": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48", "d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "user generated content": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "backend infrastructure": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48", "d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "ongoing development and improvement of web interface": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "AI generated media": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "d7b6aa9a-2699-41a9-b586-76be9ebbd98b", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "images and video content": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "reactive to sound": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "content": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "generated by AI": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "thanks to engaged community and key contributors": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "proposals": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "understandable summaries/reviews": ["d7b6aa9a-2699-41a9-b586-76be9ebbd98b"],
+        "AI assistant": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "summarization capabilities": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "corpus of data": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "proposed AI Pod": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48", "91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "AI Pod": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "3 main focuses": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48", "91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "DAO members": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48", "91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "Roko's summarization capabilities": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48", "91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "Nouners": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "teams": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "feedback on results": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "improving corpus of data": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "voice to text": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "large language model": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "web interface": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "participants to consume summarized proposal content": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "participants to edit proposal content": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "using user generated content": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "ongoing development": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "images": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "by AI": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "video content": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "custom content": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "Noggles": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48", "91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "AI pod": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "proposed focuses": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "focus 1": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "bringing Roko to life as AI assistant": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "focus 2": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "providing summarization capabilities to DAO members": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "focus 3": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "improving Roko's corpus of data": ["c88573b9-7730-47aa-99e7-2e2eb6f71d48"],
+        "AI Assistant": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "improving": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "Discourse posts": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "Roko's website": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "include a search page": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "people": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "knowledge base": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "SOTA open source image generation models": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "DAO member": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "powerful GPU servers": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "cutting edge developments": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "implement": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "use of AI tooling": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "competitions": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "with prizes": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "NoC": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "best showcases": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "Nouns AI tooling": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "content generation": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "great ideas": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "partnerships": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "opensource organizations": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "other organizations": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "collaborating": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "furthering)": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "tooling": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "organizations": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "collaborating)": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "AI generated media)": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "prop house round": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439", "2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "tooling)": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "use)": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "cutting edge developments)": ["91acd09f-3ddb-4dc1-b9e3-2f019c77a439"],
+        "they": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "text to video": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "img to img": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "text to 3d": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "we": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "knowledge": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "groups": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "suggestions": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "proliferate the brand": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "musicians": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "Noun glasses": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "live show": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "AI generated visuals": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "Future of AI Pod": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "advancements in AI": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "plan for growth": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "self-sustaining effort": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "monetization": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "The Hero Shep": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "Honk Diddly": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "Evets.ETH": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "AI/Education/Product Management": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "elite full stack developer": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"],
+        "full stack developer": ["2fd32804-005a-49d6-8c45-3fc1c6b6d933"]
+      },
+      "rel_map": {
+        "Agora": [
+          ["invest in qualified and engaged delegates", "next phase"],
+          ["hub for delegation", "created"]
+        ],
+        "Agora app": [
+          ["best experience", "keep building"],
+          ["incentives", "create"],
+          ["transparency", "create"],
+          ["transparency", "provide"],
+          ["a more powerful version of Tally & nouns.wtf", "is"],
+          ["Tally & nouns.wtf", "more powerful version"],
+          ["frictionless experience", "create"],
+          ["mechanisms", "create"],
+          ["better features", "has"],
+          ["incentives", "invest in"],
+          ["programs", "create"]
+        ],
+        "request": [
+          ["3 months", "is for"],
+          ["next step", "is important"],
+          ["quarter of development", "is for"]
+        ],
+        "Evets.ETH": [
+          ["full stack developer", "is"]
+        ]
+      },
+      "embedding_dict": {}
+    }
+  },
+  "docstore": {
+    "docs": {
+      "2804f71d-6b27-4380-b301-6352284f4b13": {
+        "text": "2022-11-03||proposal 14#||# Agora continuation\\n*Note: for full discussion of the prop on discourse, please see this [link](https://discourse.nouns.wtf/t/proposal-agora-continuation/2478).*\\n\\n## TL;DR\\n\\nWe\u2019d like to seek funding for a quarter (3 months) to keep developing [Agora](https://www.nounsagora.com/) in order to improve the governance efficacy of Nouns through delegation.\\n\\n## Progress so far\\n\\nWe got [funded on August 31](https://prop.house/proposal/1023) via Prop House mandates to build an MVP. In less than one month, we\u2019ve built a delegate platform for voters to broadcast what they want to see, and for builders to find voters who might support their prop. To illustrate the outcome with some numbers, so far we\u2019ve seen:\\n\\n* 17 statements from delegates representing 125 nouns (>25% of all votes!)\\n* 16 statements from builders who are seeking delegation\\n* 5 nouns delegated via Agora (that we know of)\\n* Proposal passed to [deploy a beta](https://lil-nouns-agora-dev.act.workers.dev/) on lil nouns\\n\\nIn sum, Agora has created a hub that turned delegation from an invisible, behind the scenes activity, to something the community can see, participate in, discuss, and improve upon.\\n\\n## What\u2019s next?\\n\\nOur goal has always been to greatly improve the effectiveness of the Nouns DAO. We recognize that while the DAO lives and dies by the quality of its decision making, the time demand of being a good voter is such that we cannot expect most token holders to participate to the degree required. Therefore focusing on driving delegation of votes into the hands of qualified and engaged delegates is the highest leverage activity we can invest in \u2013 especially given that",
+        "doc_id": "2804f71d-6b27-4380-b301-6352284f4b13",
+        "embedding": null,
+        "doc_hash": "fff546992b717352e0c9dc80cb37527719278515c859b3bb873715e6bbe46e04",
+        "extra_info": {
+          "date": "2022-11-04",
+          "doc_src": "Proposal #1"
+        },
+        "node_info": {
+          "start": 0,
+          "end": 1696
+        },
+        "relationships": {
+          "1": "2edea4b6-8dad-4ec6-9b5c-111bbcd7eca7",
+          "3": "7676efb6-3f0d-447c-a0ef-149983a52708"
+        },
+        "__type__": "1"
+      },
+      "7676efb6-3f0d-447c-a0ef-149983a52708": {
+        "text": "passed to [deploy a beta](https://lil-nouns-agora-dev.act.workers.dev/) on lil nouns\\n\\nIn sum, Agora has created a hub that turned delegation from an invisible, behind the scenes activity, to something the community can see, participate in, discuss, and improve upon.\\n\\n## What\u2019s next?\\n\\nOur goal has always been to greatly improve the effectiveness of the Nouns DAO. We recognize that while the DAO lives and dies by the quality of its decision making, the time demand of being a good voter is such that we cannot expect most token holders to participate to the degree required. Therefore focusing on driving delegation of votes into the hands of qualified and engaged delegates is the highest leverage activity we can invest in \u2013 especially given that constant issuance means that delegation and governance engagement is naturally trending downwards.\\n\\nAlthough creating a client like Agora to reduce friction and provide transparency is a necessary first step, we don\u2019t think that alone will be enough to drive meaningful delegation. That\u2019s why the next phase of Agora will not only continue to improve the delegation client, but also deliberately invest in programs and mechanisms that can greatly increase delegation and participation. We outline below the key areas we\u2019ll focus on in the next phase of Agora.\\n\\n## Focus areas\\n\\n**Incentivize effective governance:** We believe there\u2019s tremendous potential in creating incentives to reward effective governance, but also recognize the pitfalls of designing poor mechanisms. As such, we will be running a series of small scale incentive programs over the next months, with the goal of finding the best one to turn into a mechanism we can invest in for the long run. Below are some examples of incentive designs.\\n\\n## TL;DR\\n\\nWe\u2019d like to seek funding for a quarter (3 months) to keep developing",
+        "doc_id": "7676efb6-3f0d-447c-a0ef-149983a52708",
+        "embedding": null,
+        "doc_hash": "f131c811a796deca89f94847289861f00a353cb226875b2924f0a8d403ac1d76",
+        "extra_info": {
+          "date": "2022-11-04",
+          "doc_src": "Proposal #1"
+        },
+        "node_info": {
+          "start": 1058,
+          "end": 2914
+        },
+        "relationships": {
+          "1": "2edea4b6-8dad-4ec6-9b5c-111bbcd7eca7",
+          "2": "2804f71d-6b27-4380-b301-6352284f4b13",
+          "3": "0703d186-857e-49ca-9383-8d9e8f7e286d"
+        },
+        "__type__": "1"
+      },
+      "0703d186-857e-49ca-9383-8d9e8f7e286d": {
+        "text": "client, but also deliberately invest in programs and mechanisms that can greatly increase delegation and participation. We outline below the key areas we\u2019ll focus on in the next phase of Agora.\\n\\n## Focus areas\\n\\n**Incentivize effective governance:** We believe there\u2019s tremendous potential in creating incentives to reward effective governance, but also recognize the pitfalls of designing poor mechanisms. As such, we will be running a series of small scale incentive programs over the next months, with the goal of finding the best one to turn into a mechanism we can invest in for the long run. Below are some examples of incentive designs.\\n\\n## TL;DR\\n\\nWe\u2019d like to seek funding for a quarter (3 months) to keep developing [Agora](https://www.nounsagora.com/) in order to improve the governance efficacy of Nouns through delegation.\\n\\n## Progress so far\\n\\nWe got [funded on August 31](https://prop.house/proposal/1023) via Prop House mandates to build an MVP. In less than one month, we\u2019ve built a delegate platform for voters to broadcast what they want to see, and for builders to find voters who might support their prop. To illustrate the outcome with some numbers, so far we\u2019ve seen:\\n\\n* 17 statements from delegates representing 125 nouns (>25% of all votes!)\\n* 16 statements from builders who are seeking delegation\\n* 5 nouns delegated via Agora (that we know of)\\n* Proposal passed to [deploy a beta](https://lil-nouns-agora-dev.act.workers.dev/) on lil nouns\\n\\nIn sum, Agora has created a hub that turned delegation from an invisible, behind the scenes activity, to something the community can see, participate in, discuss, and improve upon.\\n\\n## What\u2019s next?\\n\\nOur",
+        "doc_id": "0703d186-857e-49ca-9383-8d9e8f7e286d",
+        "embedding": null,
+        "doc_hash": "4dcc5f7bbd66fec891c2924fdc8f73c83f2febf161da8c6a8f4827cc2691a33e",
+        "extra_info": {
+          "date": "2022-11-04",
+          "doc_src": "Proposal #1"
+        },
+        "node_info": {
+          "start": 2936,
+          "end": 4627
+        },
+        "relationships": {
+          "1": "2edea4b6-8dad-4ec6-9b5c-111bbcd7eca7",
+          "2": "7676efb6-3f0d-447c-a0ef-149983a52708",
+          "3": "4a41496d-88e2-4e13-8473-ab23c5fe3843"
+        },
+        "__type__": "1"
+      },
+      "4a41496d-88e2-4e13-8473-ab23c5fe3843": {
+        "text": "to broadcast what they want to see, and for builders to find voters who might support their prop. To illustrate the outcome with some numbers, so far we\u2019ve seen:\\n\\n* 17 statements from delegates representing 125 nouns (>25% of all votes!)\\n* 16 statements from builders who are seeking delegation\\n* 5 nouns delegated via Agora (that we know of)\\n* Proposal passed to [deploy a beta](https://lil-nouns-agora-dev.act.workers.dev/) on lil nouns\\n\\nIn sum, Agora has created a hub that turned delegation from an invisible, behind the scenes activity, to something the community can see, participate in, discuss, and improve upon.\\n\\n## What\u2019s next?\\n\\nOur goal has always been to greatly improve the effectiveness of the Nouns DAO. We recognize that while the DAO lives and dies by the quality of its decision making, the time demand of being a good voter is such that we cannot expect most token holders to participate to the degree required. Therefore focusing on driving delegation of votes into the hands of qualified and engaged delegates is the highest leverage activity we can invest in \u2013 especially given that constant issuance means that delegation and governance engagement is naturally trending downwards.\\n\\nAlthough creating a client like Agora to reduce friction and provide transparency is a necessary first step, we don\u2019t think that alone will be enough to drive meaningful delegation. That\u2019s why the next phase of Agora will not only continue to improve the delegation client, but also deliberately invest in programs and mechanisms that can greatly increase delegation and participation. We outline below the key areas we\u2019ll focus on in the next phase of Agora.\\n\\n## Focus areas\\n\\n**Incentivize effective governance:** We believe there\u2019s tremendous potential in creating incentives to reward effective governance, but also",
+        "doc_id": "4a41496d-88e2-4e13-8473-ab23c5fe3843",
+        "embedding": null,
+        "doc_hash": "23f0525d8b1e3f7c67c19ae10947b7a650162cd781818818a9f5a829085f88c6",
+        "extra_info": {
+          "date": "2022-11-04",
+          "doc_src": "Proposal #1"
+        },
+        "node_info": {
+          "start": 4688,
+          "end": 6528
+        },
+        "relationships": {
+          "1": "2edea4b6-8dad-4ec6-9b5c-111bbcd7eca7",
+          "2": "0703d186-857e-49ca-9383-8d9e8f7e286d",
+          "3": "5fb8d81c-cd86-49ee-971c-7458c2e6fb81"
+        },
+        "__type__": "1"
+      },
+      "5fb8d81c-cd86-49ee-971c-7458c2e6fb81": {
+        "text": "we can invest in \u2013 especially given that constant issuance means that delegation and governance engagement is naturally trending downwards.\\n\\nAlthough creating a client like Agora to reduce friction and provide transparency is a necessary first step, we don\u2019t think that alone will be enough to drive meaningful delegation. That\u2019s why the next phase of Agora will not only continue to improve the delegation client, but also deliberately invest in programs and mechanisms that can greatly increase delegation and participation. We outline below the key areas we\u2019ll focus on in the next phase of Agora.\\n\\n## Focus areas\\n\\n**Incentivize effective governance:** We believe there\u2019s tremendous potential in creating incentives to reward effective governance, but also recognize the pitfalls of designing poor mechanisms. As such, we will be running a series of small scale incentive programs over the next months, with the goal of finding the best one to turn into a mechanism we can invest in for the long run. Below are some examples of incentive designs.\\n\\n![|2048x774](https://lh4.googleusercontent.com/eiFv84jejE5bSBZCCFgErnb3ObAkRrvTRvxgs-fl-MLfDqPKxy6vIruxfIifE5Z_3VgcA9QV-Mdpy7ilGZgy066F2rrFGQTzx1z5owX22ibVFN22kJfm5qb23eVA4froCqj1lFcniEeZXY8fC6fTgtFz6ygA6bw07PdpD0w2HxOUFRm8Abx0gPNm0A)\\n\\n**Continue building the Agora app:** We\u2019ll keep building the Agora client to create the best experience for Nouns governance participants, bar none. This means investing in features like: proposals view with reasons delegated",
+        "doc_id": "5fb8d81c-cd86-49ee-971c-7458c2e6fb81",
+        "embedding": null,
+        "doc_hash": "555fd6f84956b2d5657a8f67697a7416b80c8e7a58e63d8d6eee14a7d56ac65c",
+        "extra_info": {
+          "date": "2022-11-04",
+          "doc_src": "Proposal #1"
+        },
+        "node_info": {
+          "start": 6433,
+          "end": 7955
+        },
+        "relationships": {
+          "1": "2edea4b6-8dad-4ec6-9b5c-111bbcd7eca7",
+          "2": "4a41496d-88e2-4e13-8473-ab23c5fe3843",
+          "3": "6331689c-bee2-4626-a940-1c3580e60176"
+        },
+        "__type__": "1"
+      },
+      "6331689c-bee2-4626-a940-1c3580e60176": {
+        "text": "building the Agora app:** We\u2019ll keep building the Agora client to create the best experience for Nouns governance participants, bar none. This means investing in features like: proposals view with reasons delegated voted for / against, more robust governance metrics over time, an easy to use proposal creator, granular and temporary delegation, etc.\\n\\n**Continue building the Agora app:** We\u2019ll keep building the Agora client to create the best experience for Nouns governance participants, bar none. This means investing in features like: proposals view with reasons delegated voted for / against, more robust governance metrics over time, an easy to use proposal creator, granular and temporary delegation, etc.\\n\\n![|690x447](https://lh5.googleusercontent.com/ct5TSYydfGy--YB6e9ZC9lC8RBUrZr_KHDSXt3MFbcelLeirAzAQmKH6R-XwFITGngWuKPZ4NOwHrSHz0pDgisjqW7g2htWLJKwllwg4otH-wgIblV9rTPZPgkIGiBdesa067Z7jL71NdMzS_EWkkHQXOQhPuLh0Oo237JMZr7yGZbTIezkoiosx)\\n\\n**Operate a delegate drive program:** we recognize that one of the key ingredients of Prop House\u2019s success was their investment in getting builders and voters to participate. Taking inspiration from that effort, we\u2019ll also operate a program to get token holders and voters to participate on Agora.\\n\\n## Outcomes in 4 months:\\n\\nIf we are successful, this is what things would look like in a quarter:\\n\\n* A full fledged Agora app that is a more powerful version of Tally & nouns.wtf when it comes to voting and",
+        "doc_id": "6331689c-bee2-4626-a940-1c3580e60176",
+        "embedding": null,
+        "doc_hash": "5becad0725acdf055534fe197aedbe8acc66c26a0e77ccc7a8ab013f93dbe586",
+        "extra_info": {
+          "date": "2022-11-04",
+          "doc_src": "Proposal #1"
+        },
+        "node_info": {
+          "start": 8427,
+          "end": 9892
+        },
+        "relationships": {
+          "1": "2edea4b6-8dad-4ec6-9b5c-111bbcd7eca7",
+          "2": "5fb8d81c-cd86-49ee-971c-7458c2e6fb81",
+          "3": "70730819-a75a-4dd0-bea1-5a4bc0c595fd"
+        },
+        "__type__": "1"
+      },
+      "70730819-a75a-4dd0-bea1-5a4bc0c595fd": {
+        "text": "a delegate drive program:** we recognize that one of the key ingredients of Prop House\u2019s success was their investment in getting builders and voters to participate. Taking inspiration from that effort, we\u2019ll also operate a program to get token holders and voters to participate on Agora.\\n\\n## Outcomes in 4 months:\\n\\nIf we are successful, this is what things would look like in a quarter:\\n\\n* A full fledged Agora app that is a more powerful version of Tally & nouns.wtf when it comes to voting and delegating.\\n* Strong conviction around the most effective mechanism to incentivize voter turnout\\n* More delegates and delegation from the delegate drive program and mechanism experiments\\n\\n## Team\\n\\nYitong \u2013 Project lead & designer: co-founder of Vector DAO, and previously design + product at Coinbase. Prop builder for #87, contributor to Nouns Vision, delegate\\n\\n0xcaff \u2013 Engineer: Built the v1 of Agora, previously engineer at Coinbase\\n\\nTom Taubkin \u2013 Protocol Engineer: Contributor to several defi projects, previously engineer at Coinbase\\n\\nMrtn \u2013 Ops / Community: Delegate from nounlets, funded via Prop House as governance historian, deployed Agora on lil nouns, previously pm on nouns.builder, and pm at Google\\n\\n## Funding request\\n\\n210 ETH to the team\\n\\n20 ETH to incentivize voter participation\\n\\nTotal ask 255 ETH (of which 20 will be given back to community via participation incentives)\",\"1. The team is requesting 210 ETH to the team and 20 ETH to incentivize voter participation, for a total of 255 ETH. 2. The cost is a 7/10. The request is for a quarter of development (3 months) to keep improving the delegation client, deliberately invest in programs and mechanisms that can greatly increase delegation and participation, and build the Agora app with",
+        "doc_id": "70730819-a75a-4dd0-bea1-5a4bc0c595fd",
+        "embedding": null,
+        "doc_hash": "60a7e831d264c854a8b9eabcf2f3a0ac0b7a95effe45fca8e602bfe8b44c5737",
+        "extra_info": {
+          "date": "2022-11-04",
+          "doc_src": "Proposal #1"
+        },
+        "node_info": {
+          "start": 9658,
+          "end": 11442
+        },
+        "relationships": {
+          "1": "2edea4b6-8dad-4ec6-9b5c-111bbcd7eca7",
+          "2": "6331689c-bee2-4626-a940-1c3580e60176",
+          "3": "04496da4-6c07-4ae9-be12-eaf0a41984c4"
+        },
+        "__type__": "1"
+      },
+      "04496da4-6c07-4ae9-be12-eaf0a41984c4": {
+        "text": "\u2013 Ops / Community: Delegate from nounlets, funded via Prop House as governance historian, deployed Agora on lil nouns, previously pm on nouns.builder, and pm at Google\\n\\n## Funding request\\n\\n210 ETH to the team\\n\\n20 ETH to incentivize voter participation\\n\\nTotal ask 255 ETH (of which 20 will be given back to community via participation incentives)\",\"1. The team is requesting 210 ETH to the team and 20 ETH to incentivize voter participation, for a total of 255 ETH. 2. The cost is a 7/10. The request is for a quarter of development (3 months) to keep improving the delegation client, deliberately invest in programs and mechanisms that can greatly increase delegation and participation, and build the Agora app with better features. 3. Vote: SUPPORT 4. My Take: I believe this is an important next step to take in order to improve the effectiveness of the Nouns DAO. The request is for a quarter of development (3 months) to keep improving the delegation client, deliberately invest in programs and mechanisms that can greatly increase delegation and participation, and build the Agora app with better features. I believe this is a worthwhile investment that will help proliferate the long-term growth and prosperity of the Nouns project. 5. Contrarian: I would need to see a more detailed plan outlining how the funds will be used in order to change my vote.",
+        "doc_id": "04496da4-6c07-4ae9-be12-eaf0a41984c4",
+        "embedding": null,
+        "doc_hash": "29bd64f0f28bda3c5045fe0764dc79f03bc12caf0dea372a2de864423a796d6e",
+        "extra_info": {
+          "date": "2022-11-04",
+          "doc_src": "Proposal #1"
+        },
+        "node_info": {
+          "start": 11137,
+          "end": 12504
+        },
+        "relationships": {
+          "1": "2edea4b6-8dad-4ec6-9b5c-111bbcd7eca7",
+          "2": "70730819-a75a-4dd0-bea1-5a4bc0c595fd"
+        },
+        "__type__": "1"
+      },
+      "915e3561-afda-4bd3-8f35-68c7bff67d46": {
+        "text": "2022-11-04||proposal #15||# The Nouns AI Pod\\n\\n## DESCRIPTION:\\n\\nThe AI generated scripted, voiced over, and visuals created PROMO video for the pod :)\\n\\n[The AI pod promo Video!!](https://youtu.be/b5Ojfo6gVcU)\\n\\n### **TL;DR:**\\n\\nFollowing the initial AI residency, we wish to create The Nouns AI Pod.\\n\\nThis prop is to fund 3 months of focus on continuing the research of our resident AI researchers:\\n\\n1. Further empowering Roko to be an AI secretary/assistant for the DAO! Helping information flow better with summaries, transcripts, reviews, answering questions and more. \\n2. Generating Nounish rich media (images, gifs, videos) and making the tools to generate such media accessible to the community at large to unleash their creativity\\n3. Empowering other pods (e.g. ai-based team drafting for e-sports, planning events for otg)\\n\\nWith each of these being built with monetization / expansion to other organizations in mind.\\n\\n---\\n\\n### WELL HOW DID THE INITIAL RESEARCH GO?\\n\\nYou can see the initial small grant proposal here [https://discourse.nouns.wtf/t/small-grants-the-nouns-ecosystem-and-ai/1929](https://discourse.nouns.wtf/t/small-grants-the-nouns-ecosystem-and-ai/1929)  and Honk's extension post here",
+        "doc_id": "915e3561-afda-4bd3-8f35-68c7bff67d46",
+        "embedding": null,
+        "doc_hash": "173952aa2135927b5bf8f3e95cf32fc3c363693582a3d979132058e55f3db780",
+        "extra_info": {
+          "date": "2022-11-03",
+          "doc_src": "Proposal #2"
+        },
+        "node_info": {
+          "start": 0,
+          "end": 1229
+        },
+        "relationships": {
+          "1": "59cadad6-85cc-487b-80ef-b0015563d728",
+          "3": "7f966c95-454d-4659-9858-2b57e9c01631"
+        },
+        "__type__": "1"
+      },
+      "7f966c95-454d-4659-9858-2b57e9c01631": {
+        "text": "and making the tools to generate such media accessible to the community at large to unleash their creativity\\n3. Empowering other pods (e.g. ai-based team drafting for e-sports, planning events for otg)\\n\\nWith each of these being built with monetization / expansion to other organizations in mind.\\n\\n---\\n\\n### WELL HOW DID THE INITIAL RESEARCH GO?\\n\\nYou can see the initial small grant proposal here [https://discourse.nouns.wtf/t/small-grants-the-nouns-ecosystem-and-ai/1929](https://discourse.nouns.wtf/t/small-grants-the-nouns-ecosystem-and-ai/1929)  and Honk's extension post here [https://discourse.nouns.wtf/t/nouns-ai-honk-residency-extension/2357](https://discourse.nouns.wtf/t/nouns-ai-honk-residency-extension/2357)\\n\\n![https://imgur.com/JPkgn07](https://imgur.com/JPkgn07.png)\\n\\n[https://staging.roko.dev/](https://staging.roko.dev/) Is a live website where the team is experimenting and adding features with the goal of building a production ready webapp.\\n\\nWe initially set out to accomplish two sprints, the first to be able to break down proposals into understandable summaries / reviews. The second was more focused on demonstrating some of the possibilities of AI and what it could bring to Nouns.\\n\\nI am happy to report that, thanks to an engaged community and support from key contributors Honk and Evets.eth we blew that goal out of the water.\\n\\nTogether, we:\\n\\n- Held weekly sessions on Tuesdays which about 30 people regularly attended that shared developments with the project as well as educating",
+        "doc_id": "7f966c95-454d-4659-9858-2b57e9c01631",
+        "embedding": null,
+        "doc_hash": "b5393dbf4fd73286ff239715442380d66d217dc4a9586cb5993b307b3f8bc447",
+        "extra_info": {
+          "date": "2022-11-03",
+          "doc_src": "Proposal #2"
+        },
+        "node_info": {
+          "start": 708,
+          "end": 2238
+        },
+        "relationships": {
+          "1": "59cadad6-85cc-487b-80ef-b0015563d728",
+          "2": "915e3561-afda-4bd3-8f35-68c7bff67d46",
+          "3": "d7b6aa9a-2699-41a9-b586-76be9ebbd98b"
+        },
+        "__type__": "1"
+      },
+      "d7b6aa9a-2699-41a9-b586-76be9ebbd98b": {
+        "text": "Is a live website where the team is experimenting and adding features with the goal of building a production ready webapp.\\n\\nWe initially set out to accomplish two sprints, the first to be able to break down proposals into understandable summaries / reviews. The second was more focused on demonstrating some of the possibilities of AI and what it could bring to Nouns.\\n\\nI am happy to report that, thanks to an engaged community and support from key contributors Honk and Evets.eth we blew that goal out of the water.\\n\\nTogether, we:\\n\\n- Held weekly sessions on Tuesdays which about 30 people regularly attended that shared developments with the project as well as educating them on fundamentals as well as cutting edge developments in machine learning\\n- Built a pipeline that can breakdown proposals into reviews automatically as they as proposed on-chain (and post them to Twitter!!)\\n- Built pipeline to turn recorded calls into text using SOTA voice to text then using a large language model to convert them into a bulleted summary\\n\\n![https://imgur.com/voyrcfZ](https://imgur.com/voyrcfZ.png)\\n\\n- Built a web interface that enables participants to easily consume summarized proposal content as well as edit them to better reflect their opinions\\n    - [https://staging.roko.dev/](https://staging.roko.dev/)\\n- Tested the ability to finetune our model using user generated content as guidance\\n- Setup a backend infrastructure setup to support the ongoing development and improvement of the web interface\\n- In addition, due to popular demand we began diving deep into AI generated media, we were able to generate images and video content (reactive to sound!) that features custom content",
+        "doc_id": "d7b6aa9a-2699-41a9-b586-76be9ebbd98b",
+        "embedding": null,
+        "doc_hash": "ce88d1f66661a2d3655ee0270021ce89228f3a0cc89a7a845e3e7d8c32e32787",
+        "extra_info": {
+          "date": "2022-11-03",
+          "doc_src": "Proposal #2"
+        },
+        "node_info": {
+          "start": 2191,
+          "end": 3891
+        },
+        "relationships": {
+          "1": "59cadad6-85cc-487b-80ef-b0015563d728",
+          "2": "7f966c95-454d-4659-9858-2b57e9c01631",
+          "3": "c88573b9-7730-47aa-99e7-2e2eb6f71d48"
+        },
+        "__type__": "1"
+      },
+      "c88573b9-7730-47aa-99e7-2e2eb6f71d48": {
+        "text": "SOTA voice to text then using a large language model to convert them into a bulleted summary\\n\\n![https://imgur.com/voyrcfZ](https://imgur.com/voyrcfZ.png)\\n\\n- Built a web interface that enables participants to easily consume summarized proposal content as well as edit them to better reflect their opinions\\n    - [https://staging.roko.dev/](https://staging.roko.dev/)\\n- Tested the ability to finetune our model using user generated content as guidance\\n- Setup a backend infrastructure setup to support the ongoing development and improvement of the web interface\\n- In addition, due to popular demand we began diving deep into AI generated media, we were able to generate images and video content (reactive to sound!) that features custom content (Noggles!)\\n\\n![https://imgur.com/hCb6gWe](https://imgur.com/hCb6gWe.png)\\n\\n![https://imgur.com/J1KHLy6](https://imgur.com/J1KHLy6.png)\\n\\n![https://imgur.com/gKTir4X](https://imgur.com/gKTir4X.png)\\n\\n![https://imgur.com/Vd9t0po](https://imgur.com/Vd9t0po.png)\\n\\n[The AI pod promo Video!!](https://youtu.be/b5Ojfo6gVcU)\\n\\n---\\n\\n### NEXT STEPS: THE AI POD\\n\\nThe proposed AI Pod will have 3 main focuses:\\n\\n1. Continue Bringing Roko to life in the form of an AI Assistant to DAO members:\\n- All Nouners and teams of funded props should have access to Roko's summarization capabilities for their related audio or text content (as long as they provide feedback on their results!!)\\n- Work towards improving Roko\u2019s corpus of data (e.g. Discourse",
+        "doc_id": "c88573b9-7730-47aa-99e7-2e2eb6f71d48",
+        "embedding": null,
+        "doc_hash": "147e629efe49c0e994064d3fa9e95b4c0354f9b43dfce52e7ea828424f19ae4d",
+        "extra_info": {
+          "date": "2022-11-03",
+          "doc_src": "Proposal #2"
+        },
+        "node_info": {
+          "start": 3814,
+          "end": 5313
+        },
+        "relationships": {
+          "1": "59cadad6-85cc-487b-80ef-b0015563d728",
+          "2": "d7b6aa9a-2699-41a9-b586-76be9ebbd98b",
+          "3": "91acd09f-3ddb-4dc1-b9e3-2f019c77a439"
+        },
+        "__type__": "1"
+      },
+      "91acd09f-3ddb-4dc1-b9e3-2f019c77a439": {
+        "text": "AI pod promo Video!!](https://youtu.be/b5Ojfo6gVcU)\\n\\n---\\n\\n### NEXT STEPS: THE AI POD\\n\\nThe proposed AI Pod will have 3 main focuses:\\n\\n1. Continue Bringing Roko to life in the form of an AI Assistant to DAO members:\\n- All Nouners and teams of funded props should have access to Roko's summarization capabilities for their related audio or text content (as long as they provide feedback on their results!!)\\n- Work towards improving Roko\u2019s corpus of data (e.g. Discourse posts, Discord messages) and learn how to incorporate these into a model to improve Roko\u2019s Nounish knowledge base.\\n- Roko's website could also be updated to include a search page where people could semantically search across that knowledge base whether it is just meeting / proposal content or if Discord / Discourse content was included.\\n2. Explore AI Generated Media\\n- Implement and host SOTA open source image generation models customized to be able to generate Noggles on powerful GPU servers so any DAO member can access it. \\n- Implement cutting edge developments as they are released (e.g. text to video, img to img, text to 3d, etc.), share our knowledge with the community, and incentivize their use!\\n3. Community Engagement, Marketing, and Outreach (Competitions!!)\\n- Put together competitions (with prizes!!) alongside groups like NoC to show off the best showcases of AI generated media leveraging Nouns AI tooling.\\n- Assist various pods and DAO members with content generation - we've already had suggestions from helping visualize proposals to making and AI content generated coffee book and I know the community will have plenty more great ideas!!\\n- Potential prop house round for utilizing the tooling?\\n- Seek out partnerships with these opensource or other organizations to see if they would be interested in collaborating to try and further",
+        "doc_id": "91acd09f-3ddb-4dc1-b9e3-2f019c77a439",
+        "embedding": null,
+        "doc_hash": "4dcfd6be5c7e86c55ebff087a03c79c8c55e634f6f04e65b7b54619615e34945",
+        "extra_info": {
+          "date": "2022-11-03",
+          "doc_src": "Proposal #2"
+        },
+        "node_info": {
+          "start": 5556,
+          "end": 7399
+        },
+        "relationships": {
+          "1": "59cadad6-85cc-487b-80ef-b0015563d728",
+          "2": "c88573b9-7730-47aa-99e7-2e2eb6f71d48",
+          "3": "2fd32804-005a-49d6-8c45-3fc1c6b6d933"
+        },
+        "__type__": "1"
+      },
+      "2fd32804-005a-49d6-8c45-3fc1c6b6d933": {
+        "text": "they are released (e.g. text to video, img to img, text to 3d, etc.), share our knowledge with the community, and incentivize their use!\\n3. Community Engagement, Marketing, and Outreach (Competitions!!)\\n- Put together competitions (with prizes!!) alongside groups like NoC to show off the best showcases of AI generated media leveraging Nouns AI tooling.\\n- Assist various pods and DAO members with content generation - we've already had suggestions from helping visualize proposals to making and AI content generated coffee book and I know the community will have plenty more great ideas!!\\n- Potential prop house round for utilizing the tooling?\\n- Seek out partnerships with these opensource or other organizations to see if they would be interested in collaborating to try and further proliferate the brand!\\n    - I\u2019d LOVE to see us partner with some musicians to work with them to make them free music videos they could post that have Noun glasses in them or have a live show with AI generated visuals featuring Noggles\\n\\n---\\n\\n### THE FUTURE OF AI POD:\\n\\nHopefully, during these three months, we will be able to not only share significant advancements in AI with the community, but also have a plan for how to take the next steps to grow the AI Pod further.\\nWe want to be able to show a path where this could become a self-sustaining effort that could grow and expand to other organizations, opening up a pipeline for monetization.\\nWe believe that this is a great opportunity to only grow and expand the Nouns ecosystem but give everyone who is a part of it superpowers that help proliferating the meme!!\\n\\n---\\n\\n### TEAM:\\n\\n- The Hero Shep (Background in AI/Education/Product Management)\\n- Honk Diddly (Wizard [elite full stack developer])\\n- Evets.ETH (Wizard [full stack",
+        "doc_id": "2fd32804-005a-49d6-8c45-3fc1c6b6d933",
+        "embedding": null,
+        "doc_hash": "65280eb800b80f66853e03a064df749da7c27320ae4b3729ec5e91f2275abe44",
+        "extra_info": {
+          "date": "2022-11-03",
+          "doc_src": "Proposal #2"
+        },
+        "node_info": {
+          "start": 7135,
+          "end": 8926
+        },
+        "relationships": {
+          "1": "59cadad6-85cc-487b-80ef-b0015563d728",
+          "2": "91acd09f-3ddb-4dc1-b9e3-2f019c77a439",
+          "3": "7c966848-99f6-4422-beeb-f896e3afc323"
+        },
+        "__type__": "1"
+      },
+      "7c966848-99f6-4422-beeb-f896e3afc323": {
+        "text": "during these three months, we will be able to not only share significant advancements in AI with the community, but also have a plan for how to take the next steps to grow the AI Pod further.\\nWe want to be able to show a path where this could become a self-sustaining effort that could grow and expand to other organizations, opening up a pipeline for monetization.\\nWe believe that this is a great opportunity to only grow and expand the Nouns ecosystem but give everyone who is a part of it superpowers that help proliferating the meme!!\\n\\n---\\n\\n### TEAM:\\n\\n- The Hero Shep (Background in AI/Education/Product Management)\\n- Honk Diddly (Wizard [elite full stack developer])\\n- Evets.ETH (Wizard [full stack developer])\\n\\n---\\n\\n### BUDGET: 164 ETH\\n\\n- 10% for all related infra (5k/mo)\\n- 30% for The Hero Shep (20k per month)\\n- 25% for Honk (15k per month)\\n- 15% for Evets.ETH (10k per month)\\n- 20% for Marketing and Community Engagement (Not only compensation for prizes but also to pay people to manage / run the competitions (e.g. prop house, NOC contests) & support other initiatives that arise. )\\n\\nBUFFER of 15% for volatility - All ETH not used strictly for reasons relating to volatility in ETH price or infra will be added to the Marketing and Community Engagement Funds\\n\\nThis budget will be governed by the members of the AI Pod and controlled by a 2/3 multi-sig.",
+        "doc_id": "7c966848-99f6-4422-beeb-f896e3afc323",
+        "embedding": null,
+        "doc_hash": "7f1eedce4d0ca3d08eb8af86ae0c8de701b5f061510ff82dca456afba75876be",
+        "extra_info": {
+          "date": "2022-11-03",
+          "doc_src": "Proposal #2"
+        },
+        "node_info": {
+          "start": 8884,
+          "end": 10273
+        },
+        "relationships": {
+          "1": "59cadad6-85cc-487b-80ef-b0015563d728",
+          "2": "2fd32804-005a-49d6-8c45-3fc1c6b6d933"
+        },
+        "__type__": "1"
+      }
+    },
+    "ref_doc_info": {
+      "2edea4b6-8dad-4ec6-9b5c-111bbcd7eca7": {
+        "doc_hash": "faed19bcf48a4dcbdef29a7a37341edd947f0536849418f1dc8099060ca1198a"
+      },
+      "59cadad6-85cc-487b-80ef-b0015563d728": {
+        "doc_hash": "8fdeae3e54d3850173cdcdabb3502b5028a7b264c869e64a413ab6e14a1af989"
+      },
+      "2804f71d-6b27-4380-b301-6352284f4b13": {
+        "doc_hash": "fff546992b717352e0c9dc80cb37527719278515c859b3bb873715e6bbe46e04"
+      },
+      "7676efb6-3f0d-447c-a0ef-149983a52708": {
+        "doc_hash": "f131c811a796deca89f94847289861f00a353cb226875b2924f0a8d403ac1d76"
+      },
+      "0703d186-857e-49ca-9383-8d9e8f7e286d": {
+        "doc_hash": "4dcc5f7bbd66fec891c2924fdc8f73c83f2febf161da8c6a8f4827cc2691a33e"
+      },
+      "4a41496d-88e2-4e13-8473-ab23c5fe3843": {
+        "doc_hash": "23f0525d8b1e3f7c67c19ae10947b7a650162cd781818818a9f5a829085f88c6"
+      },
+      "5fb8d81c-cd86-49ee-971c-7458c2e6fb81": {
+        "doc_hash": "555fd6f84956b2d5657a8f67697a7416b80c8e7a58e63d8d6eee14a7d56ac65c"
+      },
+      "6331689c-bee2-4626-a940-1c3580e60176": {
+        "doc_hash": "5becad0725acdf055534fe197aedbe8acc66c26a0e77ccc7a8ab013f93dbe586"
+      },
+      "70730819-a75a-4dd0-bea1-5a4bc0c595fd": {
+        "doc_hash": "60a7e831d264c854a8b9eabcf2f3a0ac0b7a95effe45fca8e602bfe8b44c5737"
+      },
+      "04496da4-6c07-4ae9-be12-eaf0a41984c4": {
+        "doc_hash": "29bd64f0f28bda3c5045fe0764dc79f03bc12caf0dea372a2de864423a796d6e"
+      },
+      "915e3561-afda-4bd3-8f35-68c7bff67d46": {
+        "doc_hash": "173952aa2135927b5bf8f3e95cf32fc3c363693582a3d979132058e55f3db780"
+      },
+      "7f966c95-454d-4659-9858-2b57e9c01631": {
+        "doc_hash": "b5393dbf4fd73286ff239715442380d66d217dc4a9586cb5993b307b3f8bc447"
+      },
+      "d7b6aa9a-2699-41a9-b586-76be9ebbd98b": {
+        "doc_hash": "ce88d1f66661a2d3655ee0270021ce89228f3a0cc89a7a845e3e7d8c32e32787"
+      },
+      "c88573b9-7730-47aa-99e7-2e2eb6f71d48": {
+        "doc_hash": "147e629efe49c0e994064d3fa9e95b4c0354f9b43dfce52e7ea828424f19ae4d"
+      },
+      "91acd09f-3ddb-4dc1-b9e3-2f019c77a439": {
+        "doc_hash": "4dcfd6be5c7e86c55ebff087a03c79c8c55e634f6f04e65b7b54619615e34945"
+      },
+      "2fd32804-005a-49d6-8c45-3fc1c6b6d933": {
+        "doc_hash": "65280eb800b80f66853e03a064df749da7c27320ae4b3729ec5e91f2275abe44"
+      },
+      "7c966848-99f6-4422-beeb-f896e3afc323": {
+        "doc_hash": "7f1eedce4d0ca3d08eb8af86ae0c8de701b5f061510ff82dca456afba75876be"
+      }
+    }
+  }
+}

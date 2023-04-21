@@ -7,9 +7,8 @@ HERE = Path(__file__).parent.resolve()
 DATA = HERE.parent.joinpath("data").resolve()
 
 # Define the knowledge graph
-base_kg = json.loads(DATA.joinpath("index_kg.json").read_text())
-kg = base_kg["docstore"]["docs"]["a7ac82a6-f7e8-4435-9622-f1bca3fe2315"]["rel_map"]
-
+base_kg = json.loads(DATA.joinpath("gpt_4_test.json_no_dubli_mini.json").read_text())
+kg = base_kg["index_struct"]["__data__"]["rel_map"]
 # Define a set to hold the relation types and nodes
 relation_types = set()
 nodes = set()
@@ -71,12 +70,3 @@ for node in nodes:
             print(new_item)
         except Exception as e:  # Handle the exception here
             print(f"Error: {e}")
-
-
-for entity in kg:
-    subject = nodes_on_wikibase[entity]
-    for relation in kg[entity]:
-        print(relation)
-        value = nodes_on_wikibase[relation[0]]
-        prop_nr = properties_in_wikibase[relation[1]]
-        instance_of_node_statement = wdi_core.WDItemID(value=value, prop_nr=prop_nr)
