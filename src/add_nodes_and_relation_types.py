@@ -6,9 +6,47 @@ from login import *
 HERE = Path(__file__).parent.resolve()
 DATA = HERE.parent.joinpath("data").resolve()
 
-# Define the knowledge graph
-base_kg = json.loads(DATA.joinpath("gpt_4_test.json_no_dubli_mini.json").read_text())
-kg = base_kg["index_struct"]["__data__"]["rel_map"]
+import pandas as pd
+
+kg = pd.read_csv(DATA.joinpath("KG_20230511.csv"))
+
+
+relations = set(kg["relation"])
+
+print(relations)
+
+ignored_for_now = {
+    "executioneta",
+    "clone to",
+    "clone value",
+}
+
+item_properties = {
+    "proposal type",
+    "transfer to",
+    "deposit to",
+    "status",
+    "previous proposal",
+    "proposer",
+    "purchase to",
+    "team",
+}
+
+string_properties = {"proposal summary", "proposal"}
+
+quantity_properties = {
+    "proposal number" "transfer value",
+    "deposit value",
+    "purchase value",
+    "proposal budget" "opposed by",
+    "voted by",
+    "quorumvotes" "team size",
+}
+date_properties = {
+    "proposal deadline",
+}
+
+
 # Define a set to hold the relation types and nodes
 relation_types = set()
 nodes = set()
