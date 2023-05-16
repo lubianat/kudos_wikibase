@@ -47,15 +47,6 @@ for doc in docs:
             ]
         )
 
-        wd_item = wdi_core.WDItemEngine(
-            wd_item_id="",
-            new_item=True,
-            data=data,
-            mediawiki_api_url=api_url,
-            sparql_endpoint_url=sparql,
-        )
-        wd_item.set_label(label=doc)
-        wd_item.set_description(description="source document")
         try:
             new_item = wd_item.write(wd_login)
             print(new_item)
