@@ -65,3 +65,30 @@ def get_items_on_wikibase():
         item_lookup[label] = result["item"]["value"].split("/")[-1]
 
     return item_lookup
+
+
+# Get existing properties and items in wikibase
+properties_in_wikibase = get_properties_in_wikibase()
+items_on_wikibase = get_items_on_wikibase()
+
+
+# Wikibase properties categorized by datatype
+item_properties = {"Proposal Type", "Transfer To", "Proposer", "Status"}
+
+# Mapping of relations to their corresponding range
+relation_to_range_mapping = {
+    "Proposal Type": "Proposal Type",
+    "Transfer To": "Individual",
+    "Proposer": "Individual",
+    "Status": "Status",
+}
+
+string_properties = {"Label", "Summary", "Team Name"}
+quantity_properties = {
+    "Transfer Value",
+    "Proposal Budget",
+    "Supporter Count",
+    "Opposer Count",
+    "Quorumvotes",
+    "Id",
+}

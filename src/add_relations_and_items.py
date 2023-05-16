@@ -12,33 +12,8 @@ DATA = HERE.parent.joinpath("data").resolve()
 # Read the KG data
 kg = pd.read_csv(DATA.joinpath("KG_view1.csv"))
 
-# Wikibase properties categorized by datatype
-item_properties = {"Proposal Type", "Transfer To", "Proposer", "Status"}
-
-# Mapping of relations to their corresponding range
-relation_to_range_mapping = {
-    "Proposal Type": "Proposal Type",
-    "Transfer To": "Individual",
-    "Proposer": "Individual",
-    "Status": "Status",
-}
-
-string_properties = {"Label", "Summary", "Team Name"}
-quantity_properties = {
-    "Transfer Value",
-    "Proposal Budget",
-    "Supporter Count",
-    "Opposer Count",
-    "Quorumvotes",
-    "Id",
-}
-
 # Login to Wikidata
 wd_login = wdi_login.WDLogin(user=WD_USER, pwd=WD_PASS, mediawiki_api_url=api_url)
-
-# Get existing properties and items in wikibase
-properties_in_wikibase = get_properties_in_wikibase()
-items_on_wikibase = get_items_on_wikibase()
 
 
 # Create property in wikibase if it doesn't exist
@@ -88,11 +63,11 @@ def create_item_if_not_exists(
     else:
         return None
 
-
-def main():
     # Create all relation types for wikibase items
-    # for relation_type in set(kg["relation"]):
-    #    create_property_if_not_exists(relation_type)
+
+
+for relation_type in set(kg["relation"]):
+    create_property_if_not_exists(relation_type)
 
     # Add node types to Wikibase
     create_item_if_not_exists(
@@ -117,10 +92,16 @@ def main():
     # Add currencies to the Wikibase.
     proposals = set(kg["subject"])
     for proposal in proposals:
-        if proposal not in items_on_wikibase.keys():
-            create_item_if_not_exists(
-                currency, currency, "A Nouns proposal.", items_on_wikibase["Proposal"]
-            )
+        try:
+            if proposal not in items_on_wikibase.keys():
+                create_item_if_not_exists(
+                    proposal,
+                    proposal,
+                    "A Nouns proposal.",
+                    items_on_wikibase["Proposal"],
+                )
+        except:
+            continue
 
     # Add items that play the role of objects in the Wikibase.
     for property, range in relation_to_range_mapping.items():
