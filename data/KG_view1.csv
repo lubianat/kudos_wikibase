@@ -1,608 +1,779 @@
 subject,relation,object
-Proposal 240,Proposal Type,Open source data
-Proposal 240,Label,"Nounish Dataverse, open source data"
-Proposal 240,Transfer Value,117.0 ETH
-Proposal 240,Transfer To,0xa913f06d0b1cc9616cce9646a9764bb46383f4d4
-Proposal 240,Proposal Deadline,3 months
-Proposal 240,Proposal Budget,117 ETH
-Proposal 240,Summary,"Nounish Dataverse aims to make data more accessible and easier to use in the Nouniverse through a decentralized database using Ceramic. The platform will provide infrastructure, applications, and services to give users more control and ownership over their data."
-Proposal 240,Id,240
-Proposal 240,Status,ACTIVE
-Proposal 240,Quorumvotes,93
-Proposal 240,Proposer,0xdcb4117e3a00632efcac3c169e0b23959f555e5e
-Proposal 240,Supporter Count,13
-Proposal 240,Proposal Type,Nounish dataverse
-Proposal 240,Opposer Count,21
-Proposal 242,Status,EXECUTED
-Proposal 242,Proposal Deadline,5 months
-Proposal 242,Summary,"House of Nouns seeks 95 ETH to expand its MVP for voting into a full suite of tools, with open source infrastructure."
-Proposal 242,Proposal Budget,95 ETH
-Proposal 242,Team Size,2
-Proposal 242,Transfer To,0x57dadf47646c7b4313ac9c6f71faee1fb550391b
-Proposal 242,Transfer Value,95.0 ETH
-Proposal 242,Supporter Count,37
-Proposal 242,Opposer Count,7
-Proposal 242,Label,House of Nouns v2 (revised)
-Proposal 242,Proposer,0xb52235dc0751ce6e171c51fbf459fd6637c6ccc8
-Proposal 242,Team Name,House of Nouns
-Proposal 242,Quorumvotes,94
-Proposal 242,Id,242
-Proposal 242,Proposal Type,Mvp
-Proposal 242,Proposal Type,Funding
-Proposal 242,Proposal Type,House of nouns
-Proposal 243,Proposer,0x5ca40836e6473a495148972a13dd9014797c0e92
-Proposal 243,Supporter Count,0
-Proposal 243,Transfer Value,60.0 ETH
-Proposal 243,Transfer To,0x5ca40836e6473a495148972a13dd9014797c0e92
-Proposal 243,Proposal Deadline,4 months
-Proposal 243,Summary,"Prop Lot is a proposal to build an ideas marketplace for Nouns, making it easier for ideas and builders to be considered by the DAO."
-Proposal 243,Label,Prop Lot: Where Ideas find People
-Proposal 243,Status,CANCELLED
-Proposal 243,Proposal Budget,60 ETH
-Proposal 243,Opposer Count,0
-Proposal 243,Id,243
-Proposal 243,Proposal Type,Prop lot
-Proposal 243,Proposal Type,Nouns
-Proposal 243,Proposal Type,Ideas marketplace
-Proposal 243,Quorumvotes,62
-Proposal 244,Proposal Deadline,4 months
-Proposal 244,Transfer To,0x5ca40836e6473a495148972a13dd9014797c0e92
-Proposal 244,Status,EXECUTED
-Proposal 244,Quorumvotes,69
-Proposal 244,Transfer Value,60.0 ETH
-Proposal 244,Supporter Count,36
-Proposal 244,Id,244
-Proposal 244,Label,Prop Lot: Where Ideas Find People
-Proposal 244,Proposer,0x5ca40836e6473a495148972a13dd9014797c0e92
-Proposal 244,Proposal Type,Nouns
-Proposal 244,Proposal Type,Ideas marketplace
-Proposal 244,Proposal Type,Prop lot
-Proposal 244,Proposal Budget,60 ETH
-Proposal 244,Opposer Count,10
-Proposal 244,Summary,Prop Lot is a proposal to establish an ideas marketplace for nouns to make it easier for ideas and builders to be considered by the DAO.
-Proposal 245,Label,Nouns: A Movie
-Proposal 245,Proposal Type,Funding
-Proposal 245,Id,245
-Proposal 245,Proposal Type,Preproduction
-Proposal 245,Proposal Type,Pilot
-Proposal 245,Proposal Budget,"USD 125,000"
-Proposal 245,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 245,Transfer Value,115.22 ETH
-Proposal 245,Proposal Type,Movie
-Proposal 245,Opposer Count,3
-Proposal 245,Status,EXECUTED
-Proposal 245,Summary,Atrium proposes that Nouns fund a 90-day pilot to create a series of episodic content that can be pieced together as a single movie/series.
-Proposal 245,Proposer,0x008c84421da5527f462886cec43d2717b686a7e4
-Proposal 245,Quorumvotes,64
-Proposal 245,Supporter Count,42
-Proposal 246,Proposal Type,Track
-Proposal 246,Proposal Type,Operate
-Proposal 246,Proposal Type,Nouns
-Proposal 246,Proposal Type,Proposal tracker
-Proposal 246,Id,246
-Proposal 246,Opposer Count,3
-Proposal 246,Transfer Value,33.0 ETH
-Proposal 246,Quorumvotes,87
-Proposal 246,Transfer To,0x4e142fe48c71092e78be1f1082fa8ce0cb15c354
-Proposal 246,Proposal Deadline,3 months
-Proposal 246,Proposal Budget,33 ETH
-Proposal 246,Summary,"The proposal suggests creating a platform called Nouns Proposal Tracker to track the status, progress, and proof of completion of funded proposals. It will function like a wiki and be open-sourced."
-Proposal 246,Label,Nouns Proposal Tracker
-Proposal 246,Status,CANCELLED
-Proposal 246,Proposer,0x538c4f2afa012911851dadf0655cb61377e7a8eb
-Proposal 246,Supporter Count,1
-Proposal 247,Proposal Type,Dao
-Proposal 247,Proposal Type,Rage quit
-Proposal 247,Proposal Type,Rage quit contract
-Proposal 247,Status,CANCELLED
-Proposal 247,Quorumvotes,63
-Proposal 247,Supporter Count,0
-Proposal 247,Proposal Budget,3268 ETH
-Proposal 247,Summary,The proposal suggests implementing a simple rage quit option for NounsDAO to provide a book value of treasury to those who wish to exit.
-Proposal 247,Label,Rage Quit
-Proposal 247,Proposer,0x046c54a8c88397c9b222b979f7b6efe9077f4bde
-Proposal 247,Id,247
-Proposal 247,Opposer Count,0
-Proposal 248,Status,ACTIVE
-Proposal 248,Supporter Count,5
+0x05b866ba6629958f8eac95b829e08778b06086b0,Transfer Value,118.69 ETH
+0x0d51044ff95c4e3bf77e2e08a8ba398646bdb609,Transfer Value,99.0 ETH
+0x3200a7c6467f66734b1de7ac2daa4365cfdbccf8,Transfer Value,30.0 ETH
+0x3a5fb987b475985dc41c455840ea0a1f1717e4c4,Transfer Value,0.69 ETH
+0x442e218bb1fdc5450be14e200d225b39ce644e4a,Transfer Value,120.0 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,608.26 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,413.24 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,101.66 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,563.7 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,7.56 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,116.98 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,131.87 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,577.35 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,144.33 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,149.74 ETH
+0x4f2acdc74f6941390d9b1804fabc3e780388cfe5,Transfer Value,93.52 ETH
+0x55a4e5123f8923500ff7aa97e75231a54a9c233a,Transfer Value,40.0 ETH
+0x6f3e6272a167e8accb32072d08e0957f9c79223d,Setproposalthresholdbps Value,30bps
+0x6f3e6272a167e8accb32072d08e0957f9c79223d,Setproposalthresholdbps Value,9bps
+0x6f3e6272a167e8accb32072d08e0957f9c79223d,Transfer Value,15.0 ETH
+0x716ede25d72f360d28b8139735532bc9f7ec7ee1,Transfer Value,75.0 ETH
+0x93d94557824ac07a30b5b0f44f7cb3e00f9c4191,Transfer Value,200.0 ETH
+0x95852813766e4a3112891fe6a47100023d61e5a4,Transfer Value,3268.0 ETH
+0xb0750df14fe7cf5b7a99df2243e0b873d1691204,Transfer Value,16.0 ETH
+0xd895eec6767970660a846423a409e83454e9ea95,Transfer Value,2.0 ETH
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,202761
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value,31450
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,125000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,679000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,88500
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,290000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,42000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,41680
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,52650
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,624000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,155925
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,75800
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,160000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,900000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,226425
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,90000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,58165
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,129000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,192400
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,21520
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,200000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,19050
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,233000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,30200
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,795000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,188150
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,16000
+0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d,Sendorregisterdebt Value To Nouns,65000
+0xdd7e4d8a5fef6702f7e9c5b45db440ba7a6e00c0,Transfer Value,50.0 ETH
+0xf8dc2c73df9d0efc28752f12ce0f5213a7b84426,Transfer Value,15.6 ETH
+0xf9d71b5fb8345f2508c1302a74d4362deab7d104,Transfer Value,10.0 ETH
+Proposal 214,Opposer Count,6
+Proposal 214,Supporter Count,190
+Proposal 214,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
+Proposal 214,Proposer,0x5d4df391f56f0d8f854434e52a15b10b6501129f
+Proposal 214,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 214,Team Name,ETH
+Proposal 214,Proposal Duration in Months,25
+Proposal 214,Proposal Budget,$624k
+Proposal 214,Summary,"The Nounsai Pod is requesting 416 ETH to fund a 6-month extension to expand the team, turn POCs into products, and grow community presence. The proposal includes expanding the Nounsai Playground and completing the Knowledge Hub MVP."
+Proposal 214,Label,NounsAI Pod 6 Month Extension
+Proposal 214,Status,EXECUTED
+Proposal 214,Quorumvotes,64
+Proposal 214,Proposal Submission Date,2023-01-19
+Proposal 214,Id,214
+Proposal 214,Proposal Type,Nounsai pod
+Proposal 214,Proposal Type,6 month extension
+Proposal 248,Opposer Count,222
 Proposal 248,Id,248
-Proposal 248,Opposer Count,48
-Proposal 248,Summary,"The ""rage quit"" contract allows DAO members to leave and receive their book value. It has a simple implementation and multiple rounds."
-Proposal 248,Label,Rage Quit (2)
-Proposal 248,Quorumvotes,95
-Proposal 248,Proposal Budget,3268 ETH
 Proposal 248,Proposer,0x046c54a8c88397c9b222b979f7b6efe9077f4bde
-Proposal 248,Transfer Value,3268.0 ETH
-Proposal 248,Transfer To,0x95852813766e4a3112891fe6a47100023d61e5a4
+Proposal 248,Proposal Submission Date,2023-03-08
+Proposal 248,Quorumvotes,95
+Proposal 248,Status,ACTIVE
+Proposal 248,Label,Rage Quit (2)
+Proposal 248,Summary,The DAO has implemented a rage quit contract to allow members to leave and receive their book value of the treasury.
+Proposal 248,Proposal Budget,"3268 ETH, 3674 stETH"
 Proposal 248,Proposal Type,Resubmission
 Proposal 248,Proposal Type,Rage quit
 Proposal 248,Proposal Type,Txn bundle
-Proposal 249,Opposer Count,2
+Proposal 248,Transfer To,0x95852813766e4a3112891fe6a47100023d61e5a4
+Proposal 248,Supporter Count,19
+Proposal 249,Transfer To,0x3200a7c6467f66734b1de7ac2daa4365cfdbccf8
+Proposal 249,Id,249
+Proposal 249,Proposer,0xae65e700f3f8904ac1007d47a5309dd26f8146c0
+Proposal 249,Proposal Submission Date,2023-03-08
+Proposal 249,Quorumvotes,64
 Proposal 249,Proposal Type,Nouns
 Proposal 249,Proposal Type,Block graffiti
-Proposal 249,Proposal Type,Solo
 Proposal 249,Proposal Type,Eth
-Proposal 249,Id,249
-Proposal 249,Label,Nouns block graffiti x ETH solo staking
-Proposal 249,Summary,"A prize pool of 10 ETH per month for the next three months will be awarded to solo stakers who add ""⌐-"" to their validator's graffiti flag."
-Proposal 249,Proposer,0xae65e700f3f8904ac1007d47a5309dd26f8146c0
-Proposal 249,Transfer To,0x3200a7c6467f66734b1de7ac2daa4365cfdbccf8
-Proposal 249,Proposal Budget,10 ETH
+Proposal 249,Proposal Type,Solo
 Proposal 249,Status,EXECUTED
-Proposal 249,Supporter Count,44
-Proposal 249,Transfer Value,30.0 ETH
-Proposal 249,Quorumvotes,64
+Proposal 249,Label,Nouns block graffiti x ETH solo staking
+Proposal 249,Summary,A prize pool of 10 ETH per month for the next three months is proposed to incentivize solo staking and celebrate it with a playful element.
+Proposal 249,Proposal Budget,10 ETH
+Proposal 249,Opposer Count,4
+Proposal 249,Supporter Count,218
+Proposal 250,Proposal Budget,$160k
+Proposal 250,Team Name,Personae Labs
+Proposal 250,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
 Proposal 250,Proposal Type,Pseudonymity
+Proposal 250,Opposer Count,11
 Proposal 250,Proposal Type,Noun nyms
-Proposal 250,Opposer Count,4
+Proposal 250,Summary,"Personae Labs proposes to launch zk-powered pseudonyms and discussions for nouners, with persistent pseudonyms and threaded pseudonymous discussions. They ask for $160k from the dao."
+Proposal 250,Supporter Count,212
 Proposal 250,Label,Noun Nyms
-Proposal 250,Proposal Budget,USD 160
-Proposal 250,Transfer Value,101.66 ETH
-Proposal 250,Supporter Count,41
-Proposal 250,Summary,"Personae Labs is developing a new platform for pseudonymous discussions with persistent pseudonyms and threaded discussions for Nouners, with an ask of $160k from the DAO."
-Proposal 250,Status,EXECUTED
+Proposal 250,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
 Proposal 250,Quorumvotes,67
+Proposal 250,Proposal Submission Date,2023-03-14
 Proposal 250,Proposer,0x141b63d93daf55bfb7f396eee6114f3a5d4a90b2
 Proposal 250,Id,250
-Proposal 250,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 250,Team Name,Personae Labs
+Proposal 250,Status,EXECUTED
+Proposal 251,Id,251
+Proposal 251,Proposer,0xaa4fbd73051b151397bb369c7e2a6052a894d924
+Proposal 251,Proposal Submission Date,2023-03-16
+Proposal 251,Quorumvotes,96
+Proposal 251,Proposal Type,3dprint
 Proposal 251,Proposal Type,Nouns
 Proposal 251,Proposal Type,Showcase
-Proposal 251,Proposal Type,3dprint
-Proposal 251,Opposer Count,4
-Proposal 251,Id,251
-Proposal 251,Summary,"The article discusses showcasing a 3D-printed fashion collection at NFT.NYC, expecting to attract 8,000-10,000 attendees, with a budget of $51,720."
-Proposal 251,Supporter Count,30
-Proposal 251,Transfer Value,7.56 ETH
-Proposal 251,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 251,Proposal Budget,"USD 51,720"
-Proposal 251,Proposer,0xaa4fbd73051b151397bb369c7e2a6052a894d924
-Proposal 251,Label,Showcase Nouns 3D-Printed Fashion Collection at NFT.NYC
 Proposal 251,Status,EXECUTED
-Proposal 251,Quorumvotes,96
-Proposal 252,Proposal Type,He
-Proposal 252,Proposal Type,Nfj
+Proposal 251,Label,Showcase Nouns 3D-Printed Fashion Collection at NFT.NYC
+Proposal 251,Summary,Nouns will showcase a 3D-printed fashion collection at the NFT.nyc event in April to expose more people to the brand.
+Proposal 251,Proposal Budget,"$51,720"
+Proposal 251,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 251,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 251,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
+Proposal 251,Supporter Count,125
+Proposal 251,Opposer Count,44
 Proposal 252,Proposal Type,Nouns
-Proposal 252,Proposal Type,State property
-Proposal 252,Id,252
-Proposal 252,Proposer,0x53469f448c3ea07671da492ede02f90790978c9d
+Proposal 252,Summary,"State Property and Nouns collaborate to create an exclusive collection of noun-inspired fine jewelry sold via daily auction, with proceeds going to the Nouns treasury. They are asking for USDC 188,150 to fund the project."
+Proposal 252,Proposal Budget,"USDC188,150"
+Proposal 252,Proposal Duration in Months,7
 Proposal 252,Quorumvotes,96
-Proposal 252,Status,CANCELLED
-Proposal 252,Label,Nouns Fine Jewellery by: State Property – supported by HeyMint
-Proposal 252,Summary,"State Property and Nouns present an exclusive collection of fine jewellery inspired by nounish elements, to be sold via daily auction with proceeds going to the Nouns treasury."
-Proposal 252,Proposal Deadline,2023-10-03 00:00:00
-Proposal 252,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 252,Transfer Value,131.87 ETH
-Proposal 252,Transfer To,0x3a5fb987b475985dc41c455840ea0a1f1717e4c4
-Proposal 252,Transfer Value,0.69 ETH
+Proposal 252,Proposal Submission Date,2023-03-16
+Proposal 252,Proposer,0x53469f448c3ea07671da492ede02f90790978c9d
+Proposal 252,Id,252
 Proposal 252,Supporter Count,1
-Proposal 252,Opposer Count,11
-Proposal 252,Proposal Budget,"USD 188,150"
+Proposal 252,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
+Proposal 252,Label,Nouns Fine Jewellery by: State Property – supported by HeyMint
+Proposal 252,Transfer To,0x3a5fb987b475985dc41c455840ea0a1f1717e4c4
+Proposal 252,Proposal Type,Nfj
+Proposal 252,Opposer Count,87
+Proposal 252,Proposal Type,He
+Proposal 252,Proposal Type,State property
+Proposal 252,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 252,Status,CANCELLED
+Proposal 253,Quorumvotes,96
+Proposal 253,Supporter Count,154
+Proposal 253,Label,Nouns Hack Week
+Proposal 253,Summary,Nouns Hack Week is a community-run event with 99 ETH in prizes to incentivize the community to run their own events and get excited about nouns.
+Proposal 253,Opposer Count,90
+Proposal 253,Id,253
+Proposal 253,Proposer,0x93d94557824ac07a30b5b0f44f7cb3e00f9c4191
+Proposal 253,Proposal Submission Date,2023-03-16
+Proposal 253,Status,EXECUTED
+Proposal 253,Transfer To,0x0d51044ff95c4e3bf77e2e08a8ba398646bdb609
+Proposal 253,Proposal Budget,The proposal asks for a total of 99 eth.
+Proposal 253,Proposal Type,Nouns hack week
 Proposal 253,Proposal Type,Decentralized
 Proposal 253,Proposal Type,Communityrun
-Proposal 253,Proposal Type,Nouns hack week
-Proposal 253,Transfer Value,99.0 ETH
-Proposal 253,Id,253
-Proposal 253,Status,EXECUTED
-Proposal 253,Proposal Budget,99 ETH
-Proposal 253,Summary,"Nouns Hack Week is a decentralized event for the Nouns community to explore new ideas, with 99 ETH in prizes. It encourages community members to run their own events."
-Proposal 253,Transfer To,0x0d51044ff95c4e3bf77e2e08a8ba398646bdb609
-Proposal 253,Supporter Count,26
-Proposal 253,Opposer Count,11
-Proposal 253,Label,Nouns Hack Week
-Proposal 253,Proposer,0x93d94557824ac07a30b5b0f44f7cb3e00f9c4191
-Proposal 253,Quorumvotes,96
-Proposal 254,Quorumvotes,64
-Proposal 254,Status,EXECUTED
-Proposal 254,Opposer Count,1
-Proposal 254,Label,Nouns Deli Melbourne: Piloting a Nounish Franchise Model
-Proposal 254,Summary,"The proposal suggests funding a permanent Nouns Deli store in Melbourne, Australia, with the aim of creating a scalable, open-source franchise model."
+Proposal 254,Proposal Type,Nouns deli
 Proposal 254,Id,254
 Proposal 254,Proposer,0x008c84421da5527f462886cec43d2717b686a7e4
-Proposal 254,Proposal Deadline,2 months
-Proposal 254,Transfer Value,144.33 ETH
-Proposal 254,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 254,Proposal Type,Nouns deli
-Proposal 254,Proposal Budget,USD 202
-Proposal 254,Proposal Type,Franchise model
-Proposal 254,Supporter Count,40
 Proposal 254,Proposal Type,Melbourne
-Proposal 255,Status,ACTIVE
-Proposal 255,Summary,"The Nouns Wallet Service allows users to add any NFT to their Apple/Android wallet, enabling push notifications and event token gating. It's a free tool available for Ethereum-based DAOs/NFT collections."
-Proposal 255,Proposal Budget,120 ETH
-Proposal 255,Transfer Value,120.0 ETH
-Proposal 255,Proposer,0xdcb4117e3a00632efcac3c169e0b23959f555e5e
-Proposal 255,Supporter Count,12
-Proposal 255,Opposer Count,24
-Proposal 255,Quorumvotes,96
-Proposal 255,Id,255
-Proposal 255,Transfer To,0x442e218bb1fdc5450be14e200d225b39ce644e4a
-Proposal 255,Label,Nouns Wallet Service
-Proposal 255,Proposal Type,Nouns
-Proposal 255,Proposal Type,Wallet service
+Proposal 254,Quorumvotes,64
+Proposal 254,Status,EXECUTED
+Proposal 254,Label,Nouns Deli Melbourne: Piloting a Nounish Franchise Model
+Proposal 254,Proposal Submission Date,2023-03-16
+Proposal 254,Proposal Duration in Months,2
+Proposal 254,Proposal Budget,$202k
+Proposal 254,Proposal Type,Franchise model
+Proposal 254,Opposer Count,1
+Proposal 254,Summary,"Proposal for funding of a permanent Nouns deli in Melbourne, Australia, with plans to rebrand an existing venue and create an open, franchisable package with the intention of scaling the business."
+Proposal 254,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
+Proposal 254,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 254,Supporter Count,215
 Proposal 255,Proposal Type,Nfts
-Proposal 256,Transfer Value,93.52 ETH
-Proposal 256,Label,The First Triple Back Flip in a Wheelchair
-Proposal 256,Proposal Deadline,6 months
-Proposal 256,Opposer Count,24
+Proposal 255,Proposal Type,Wallet service
+Proposal 255,Id,255
+Proposal 255,Proposer,0xdcb4117e3a00632efcac3c169e0b23959f555e5e
+Proposal 255,Proposal Submission Date,2023-03-17
+Proposal 255,Quorumvotes,96
+Proposal 255,Status,ACTIVE
+Proposal 255,Summary,"Nouns Wallet Service allows users to add any NFT or ERC-20 token to their Apple/Android wallet, enabling push notifications and event token gating. It's a free tool available to Ethereum-based DAO/NFT collections."
+Proposal 255,Transfer To,0x442e218bb1fdc5450be14e200d225b39ce644e4a
+Proposal 255,Supporter Count,36
+Proposal 255,Opposer Count,118
+Proposal 255,Proposal Type,Nouns
+Proposal 255,Label,Nouns Wallet Service
+Proposal 255,Proposal Budget,120 ETH
 Proposal 256,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 256,Proposal Budget,"USD 155,925"
-Proposal 256,Summary,"A proposal to create a documentary about Aaron ""Wheelz"" Fotheringham's journey to perform the first triple back flip in a wheelchair."
-Proposal 256,Status,EXECUTED
 Proposal 256,Proposer,0x0055cd5f017027d10adf4f13332181e6d8d886bb
+Proposal 256,Proposal Submission Date,2023-03-20
+Proposal 256,Quorumvotes,97
+Proposal 256,Label,The First Triple Back Flip in a Wheelchair
+Proposal 256,Summary,"A proposal to create a documentary on Aaron ""Wheelz"" Fotheringham's journey to perform the first triple back flip in a wheelchair."
+Proposal 256,Proposal Budget,"$155,925"
+Proposal 256,Proposal Duration in Months,6
+Proposal 256,Opposer Count,165
+Proposal 256,Supporter Count,163
+Proposal 256,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
 Proposal 256,Id,256
-Proposal 256,Supporter Count,44
+Proposal 256,Status,EXECUTED
+Proposal 256,Proposal Type,Wheelchair
 Proposal 256,Proposal Type,Triple back flip
 Proposal 256,Proposal Type,Documentary
-Proposal 256,Proposal Type,Wheelchair
-Proposal 256,Quorumvotes,97
-Proposal 257,Proposal Budget,"USD 226,425"
-Proposal 257,Proposal Type,Nouns fair
+Proposal 257,Id,257
+Proposal 257,Proposer,0x0c66d954d9cb1ebdf4e37a000262323c83655e70
+Proposal 257,Proposal Submission Date,2023-03-22
+Proposal 257,Quorumvotes,77
 Proposal 257,Status,EXECUTED
 Proposal 257,Label,Nouns Fair @ ETH Global hackathons
-Proposal 257,Summary,"The Nouns Fair is an in-person event that spreads awareness and education about nouns to hackers and builders in the web3 community. It includes fun activities, culture, and a chance to win prizes for nounish projects."
-Proposal 257,Proposal Deadline,2023-11-14 00:00:00
-Proposal 257,Quorumvotes,77
-Proposal 257,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 257,Id,257
-Proposal 257,Supporter Count,41
-Proposal 257,Opposer Count,2
-Proposal 257,Proposer,0x0c66d954d9cb1ebdf4e37a000262323c83655e70
-Proposal 257,Transfer Value,149.74 ETH
+Proposal 257,Summary,"The Nouns Fair is an in-person event at EthGlobal hackathons that spreads awareness and encourages building with Nouns, featuring photo sets, games, swag, and a dedicated team."
+Proposal 257,Proposal Budget,"$226,425"
+Proposal 257,Proposal Duration in Months,8
 Proposal 257,Team Name,the Nouns Fair
+Proposal 257,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
+Proposal 257,Supporter Count,256
+Proposal 257,Opposer Count,13
+Proposal 257,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 257,Proposal Type,Nouns fair
 Proposal 257,Proposal Type,Ethglobal hackathons
-Proposal 258,Proposal Deadline,2023-12-01 00:00:00
+Proposal 258,Opposer Count,233
+Proposal 258,Proposal Duration in Months,8
 Proposal 258,Proposal Type,New
 Proposal 258,Proposal Type,W3bstock
-Proposal 258,Proposal Budget,10 ETH
-Proposal 258,Status,ACTIVE
-Proposal 258,Transfer Value,10.0 ETH
-Proposal 258,Id,258
 Proposal 258,Proposal Type,Nouns
-Proposal 258,Quorumvotes,97
+Proposal 258,Proposal Budget,10 ETH
+Proposal 258,Summary,"The Nouns DAO is requesting 10 ETH to become a title partner of W3bstock NYC, a global live entertainment consortium that empowers artists and revolutionizes the music industry using blockchain technology."
 Proposal 258,Label,Nouns x W3BSTOCK in NOUN YORK CITY!!!!
-Proposal 258,Summary,"The proposal requests 10 ETH for Nouns DAO to become a title partner of W3bstock NYC, a global live entertainment consortium that empowers artists and revolutionizes the music industry using blockchain technology, in order to gain significant exposure and align itself."
+Proposal 258,Status,ACTIVE
+Proposal 258,Quorumvotes,97
+Proposal 258,Proposal Submission Date,2023-03-23
 Proposal 258,Proposer,0xa903c06bf35286f6d1cdad25396748353979a44c
-Proposal 258,Supporter Count,2
-Proposal 258,Opposer Count,31
+Proposal 258,Id,258
+Proposal 258,Supporter Count,3
 Proposal 258,Transfer To,0xf9d71b5fb8345f2508c1302a74d4362deab7d104
-Proposal 259,Proposal Type,Nouns
+Proposal 259,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
 Proposal 259,Proposal Type,Bonus pack
 Proposal 259,Proposal Type,Short shorts
+Proposal 259,Proposal Type,Nouns
+Proposal 259,Proposal Budget,"$65,000"
 Proposal 259,Id,259
+Proposal 259,Proposer,0x281ec184e704ce57570614c33b3477ec7ff07243
+Proposal 259,Opposer Count,30
 Proposal 259,Quorumvotes,94
 Proposal 259,Status,EXECUTED
 Proposal 259,Label,Nouns Short Shorts - Bonus Pack
-Proposal 259,Summary,"The proposal requests $65,000 USDC to fund 7 more short shorts and host an IRL festival event in LA to showcase animators."
-Proposal 259,Supporter Count,41
-Proposal 259,Opposer Count,4
-Proposal 259,Proposal Budget,"USD 65,000"
-Proposal 259,Proposer,0x281ec184e704ce57570614c33b3477ec7ff07243
-Proposal 260,Proposal Type,Forgeries
-Proposal 260,Proposal Type,Public goods
-Proposal 260,Proposal Type,Omega
-Proposal 260,Proposal Type,Hyper
-Proposal 260,Status,ACTIVE
-Proposal 260,Summary,"Forgeries is a debut release for Omega, a free public good hyperstructure deployed on Ethereum, featuring counterfeit Noun 401 editions."
+Proposal 259,Summary,"The Nouns Short Shorts project seeks $65,000 USD to fund seven more short animations and host a festival in LA."
+Proposal 259,Supporter Count,250
+Proposal 259,Proposal Submission Date,2023-03-29
+Proposal 260,Opposer Count,190
+Proposal 260,Createedition To,0xf74b146ce44cc162b601dec3be331784db111dc1
+Proposal 260,Proposal Budget,There is no funding request in the proposal.
+Proposal 260,Summary,"Forgeries is a new release on the Omega platform, offering an open edition of exact forgeries with one authentic Noun 401."
 Proposal 260,Label,Forgeries - ALL are FAKE except ONE
-Proposal 260,Supporter Count,21
-Proposal 260,Id,260
-Proposal 260,Opposer Count,23
+Proposal 260,Status,ACTIVE
 Proposal 260,Quorumvotes,99
+Proposal 260,Supporter Count,72
 Proposal 260,Proposer,0x387a161c6b25aa854100abaed39274e51aaffffd
-Proposal 262,Quorumvotes,99
-Proposal 262,Proposer,0xaa4fbd73051b151397bb369c7e2a6052a894d924
-Proposal 262,Label,Showcase Nouns 3D-Printed Collection on Times Square Billboards
-Proposal 262,Opposer Count,23
-Proposal 262,Supporter Count,27
+Proposal 260,Proposal Type,Hyper
+Proposal 260,Proposal Type,Public goods
+Proposal 260,Proposal Submission Date,2023-03-30
+Proposal 260,Proposal Type,Omega
+Proposal 260,Proposal Type,Forgeries
+Proposal 260,Id,260
+Proposal 261,Proposal Type,Dynamic quorum updates
+Proposal 261,Id,261
+Proposal 261,Proposer,0x4754b7e3dede42d71d6c92978f25f306176ec7e9
+Proposal 261,Proposal Submission Date,2023-03-30
+Proposal 261,Status,EXECUTED
+Proposal 261,Label,Dynamic Quorum Updates
+Proposal 261,Quorumvotes,99
+Proposal 261,Proposal Budget,The proposal suggests increasing maximum quorum to 20%.
+Proposal 261,Team Size,15
+Proposal 261,Supporter Count,161
+Proposal 261,Opposer Count,147
+Proposal 261,Proposal Type,Minimum quorum
+Proposal 261,Summary,The proposal suggests increasing the maximum quorum from 15% to 20% to increase the percentage of successful proposals.
 Proposal 262,Id,262
+Proposal 262,Opposer Count,135
+Proposal 262,Supporter Count,131
+Proposal 262,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 262,Proposal Budget,"$16,000"
+Proposal 262,Label,Showcase Nouns 3D-Printed Collection on Times Square Billboards
 Proposal 262,Status,EXECUTED
-Proposal 262,Proposal Budget,"USD 16,000"
-Proposal 262,Proposal Type,Showcase
-Proposal 262,Proposal Type,Nouns
+Proposal 262,Quorumvotes,99
+Proposal 262,Proposal Submission Date,2023-03-30
+Proposal 262,Proposer,0xaa4fbd73051b151397bb369c7e2a6052a894d924
+Proposal 262,Summary,"Nouns plans to display a video of their 3D-printed collection on Times Square billboards during NFT NYC week for $16,000."
 Proposal 262,Proposal Type,3dprint
-Proposal 262,Summary,"Nouns' 3D-printed collection will be displayed on Times Square billboards during NFT NYC week for $16,000, providing powerful marketing assets."
-Proposal 264,Summary,A South Korean design team plans to launch a vacation-themed nouns-wear and lifestyle goods brand for summer 2023.
-Proposal 264,Supporter Count,0
-Proposal 264,Opposer Count,10
-Proposal 264,Quorumvotes,99
-Proposal 264,Status,CANCELLED
-Proposal 264,Label,Launching Nouns Vacation Summer Brand 2023
-Proposal 264,Proposal Deadline,2023-06-14 00:00:00
+Proposal 262,Proposal Type,Nouns
+Proposal 262,Proposal Type,Showcase
+Proposal 263,Opposer Count,111
+Proposal 263,Supporter Count,190
+Proposal 263,Team Name,Nouns
+Proposal 263,Proposal Type,Csgo
+Proposal 263,Proposal Type,Nouns esports
+Proposal 263,Proposal Duration in Months,10
+Proposal 263,Proposal Budget,"795,000 USD"
+Proposal 263,Summary,Nouns aims to become a tier one esports brand by supporting their professional esports teams during the 2023 season.
+Proposal 263,Label,Nouns Esports - CS:GO and Dota2 Rosters 2023
+Proposal 263,Status,EXECUTED
+Proposal 263,Quorumvotes,99
+Proposal 263,Proposal Submission Date,2023-04-01
+Proposal 263,Proposer,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89
+Proposal 263,Id,263
+Proposal 263,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
+Proposal 263,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 264,Opposer Count,110
 Proposal 264,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 264,Proposer,0xe7304ba0f157f2ade94015934284b6704bc72911
-Proposal 264,Id,264
+Proposal 264,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 264,Proposal Duration in Months,3
+Proposal 264,Proposal Budget,"$233,000"
+Proposal 264,Proposal Submission Date,2023-04-02
+Proposal 264,Label,Launching Nouns Vacation Summer Brand 2023
+Proposal 264,Summary,An experienced team plans to launch a vacation-themed nouns-wear and lifestyle goods brand for summer 2023.
 Proposal 264,Proposal Type,Summer
-Proposal 264,Proposal Type,Vacation
+Proposal 264,Status,CANCELLED
+Proposal 264,Id,264
+Proposal 264,Proposer,0xe7304ba0f157f2ade94015934284b6704bc72911
+Proposal 264,Quorumvotes,99
 Proposal 264,Proposal Type,Nouns
-Proposal 264,Transfer Value,116.98 ETH
+Proposal 264,Proposal Type,Vacation
 Proposal 264,Proposal Type,Launching
-Proposal 265,Quorumvotes,100
-Proposal 265,Proposer,0x43e3ab994070db606042e8deffd146300cb52919
-Proposal 265,Id,265
+Proposal 265,Opposer Count,151
+Proposal 265,Supporter Count,69
 Proposal 265,Proposal Budget,"USD 19,050"
-Proposal 265,Supporter Count,7
-Proposal 265,Opposer Count,22
-Proposal 265,Summary,"Noun plans to create branded wet wipes to increase brand awareness, with an initial investment of USD 19,050."
-Proposal 265,Status,CANCELLED
+Proposal 265,Summary,"Noun wet wipes will be produced as branded fast-moving consumer goods to increase brand awareness at a cost of USD 19,050."
 Proposal 265,Label,Noun Wet Wipes
+Proposal 265,Status,CANCELLED
+Proposal 265,Quorumvotes,100
+Proposal 265,Proposal Submission Date,2023-04-07
+Proposal 265,Proposer,0x43e3ab994070db606042e8deffd146300cb52919
+Proposal 265,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 265,Id,265
 Proposal 265,Proposal Type,Branded fast moving consumer
 Proposal 265,Proposal Type,Noun wet wipes
-Proposal 266,Transfer To,0x05b866ba6629958f8eac95b829e08778b06086b0
 Proposal 266,Id,266
-Proposal 266,Team Name,Profish and Nextmech
-Proposal 266,Opposer Count,25
-Proposal 266,Supporter Count,9
-Proposal 266,Transfer Value,118.69 ETH
 Proposal 266,Proposer,0x144975eec9674fd0af3d6f3fba8d660879ce3881
+Proposal 266,Proposal Submission Date,2023-04-10
 Proposal 266,Quorumvotes,100
-Proposal 266,Label,The Nouns Mechanical Keyboard
 Proposal 266,Status,ACTIVE
-Proposal 266,Proposal Budget,118 ETH
-Proposal 266,Proposal Deadline,8 months
-Proposal 266,Proposal Type,Mechanical keyboard
-Proposal 266,Proposal Type,Nouns
-Proposal 266,Proposal Type,Mk
+Proposal 266,Label,The Nouns Mechanical Keyboard
+Proposal 266,Summary,Nextmech and Profish plan to collaborate with a top-tier keyboard designer to create a nounish mechanical keyboard that will bridge the gap between the nouns subculture and the mechanical keyboard community.
+Proposal 266,Proposal Duration in Months,8
+Proposal 266,Team Name,Profish and Nextmech
+Proposal 266,Transfer To,0x05b866ba6629958f8eac95b829e08778b06086b0
+Proposal 266,Supporter Count,64
+Proposal 266,Proposal Budget,118.69 ETH
 Proposal 266,Proposal Type,Sub
-Proposal 266,Summary,Nextmech and Profish plan to create a nounish mechanical keyboard (MK) with a top-tier designer and launch a Nouns sub-DAO for the enthusiast subculture.
-Proposal 267,Label,Explorer Grants
-Proposal 267,Opposer Count,0
-Proposal 267,Id,267
-Proposal 267,Proposer,0x93d94557824ac07a30b5b0f44f7cb3e00f9c4191
-Proposal 267,Quorumvotes,67
-Proposal 267,Summary,Explorer grants had a successful pilot and aims to fund more talented builders for the Nouns ecosystem through two more rounds of grants and further project investment.
-Proposal 267,Proposal Type,Builders
-Proposal 267,Transfer To,0x93d94557824ac07a30b5b0f44f7cb3e00f9c4191
-Proposal 267,Transfer Value,200.0 ETH
-Proposal 267,Supporter Count,0
+Proposal 266,Opposer Count,163
+Proposal 266,Proposal Type,Mk
+Proposal 266,Proposal Type,Nouns
+Proposal 266,Proposal Type,Mechanical keyboard
 Proposal 267,Proposal Type,Explorer grants
 Proposal 267,Proposal Type,Pilot round
-Proposal 267,Proposal Budget,100 ETH
+Proposal 267,Proposal Type,Builders
 Proposal 267,Status,CANCELLED
-Proposal 268,Proposal Budget,31 ETH
-Proposal 268,Summary,"The proposal suggests using a federation autobidder funded with 31 ETH to purchase nouns at auction for future use. The autobidder has specific settings to bid on nouns, and Lil Nouns and Wizards have already used it."
-Proposal 268,Label,Nouns Autobidder Trial (by Federation)
+Proposal 267,Proposer,0x93d94557824ac07a30b5b0f44f7cb3e00f9c4191
+Proposal 267,Id,267
+Proposal 267,Transfer To,0x93d94557824ac07a30b5b0f44f7cb3e00f9c4191
+Proposal 267,Proposal Budget,100 ETH
+Proposal 267,Summary,Explorer Grants had a successful pilot round and want to run two more rounds of grants to bring more builders to the Nouns ecosystem.
+Proposal 267,Label,Explorer Grants
+Proposal 267,Proposal Submission Date,2023-04-10
+Proposal 267,Quorumvotes,67
 Proposal 268,Status,EXECUTED
 Proposal 268,Quorumvotes,101
+Proposal 268,Proposal Submission Date,2023-04-11
 Proposal 268,Proposer,0x13eef4ef8fca471f242ab0f8f49a3db6017ada33
 Proposal 268,Id,268
-Proposal 268,Opposer Count,18
-Proposal 268,Supporter Count,21
+Proposal 268,Label,Nouns Autobidder Trial (by Federation)
+Proposal 268,Summary,"The proposal suggests using a federation autobidder, funded with 31 ETH, to purchase nouns at auction for future proposals. The autobidder will be configured with specific settings and can be used by anyone."
 Proposal 268,Proposal Type,Nouns
-Proposal 268,Proposal Type,Autobidder
+Proposal 268,Supporter Count,158
+Proposal 268,Opposer Count,122
 Proposal 268,Proposal Type,Trial
-Proposal 269,Status,ACTIVE
-Proposal 269,Opposer Count,9
-Proposal 269,Supporter Count,25
-Proposal 269,Team Name,Lil Bubble
-Proposal 269,Proposal Budget,3 ETH
-Proposal 269,Summary,"The ""gnarly ep"" is a three-track release by Lil Bubble commissioned by Gnars for 3 ETH, with a CC0 release of the music and cover art."
-Proposal 269,Proposal Deadline,2023-05-15 00:00:00
-Proposal 269,Quorumvotes,135
-Proposal 269,Proposer,0x0658f4ed17289144717713adffc2539ef7c2ef8e
+Proposal 268,Proposal Type,Autobidder
+Proposal 268,Proposal Budget,31 ETH
 Proposal 269,Id,269
-Proposal 269,Proposal Type,Lil bubble
-Proposal 269,Proposal Type,Gnarly ep
+Proposal 269,Proposer,0x0658f4ed17289144717713adffc2539ef7c2ef8e
+Proposal 269,Proposal Submission Date,2023-04-13
+Proposal 269,Quorumvotes,135
 Proposal 269,Label,Gnarly EP
-Proposal 271,Supporter Count,49
-Proposal 271,Team Name,Tasha K.
+Proposal 269,Summary,"The ""gnarly ep"" is a 3-track music release by Lil Bubble commissioned by Gnar's DAO for 3 ETH. It will be released as timed open editions."
+Proposal 269,Proposal Budget,The proposal does not request any funding.
+Proposal 269,Status,ACTIVE
+Proposal 269,Createedition To,0xf74b146ce44cc162b601dec3be331784db111dc1
+Proposal 269,Createedition To,0xf74b146ce44cc162b601dec3be331784db111dc1
+Proposal 269,Proposal Type,Gnarly ep
+Proposal 269,Createedition To,0xf74b146ce44cc162b601dec3be331784db111dc1
+Proposal 269,Supporter Count,101
+Proposal 269,Opposer Count,135
+Proposal 269,Proposal Type,Lil bubble
+Proposal 269,Createedition To,0xf74b146ce44cc162b601dec3be331784db111dc1
+Proposal 270,Proposal Submission Date,2023-04-20
+Proposal 270,Quorumvotes,136
+Proposal 270,Status,ACTIVE
+Proposal 270,Label,Archives.wtf - Extension
+Proposal 270,Summary,Archives.wtf is seeking funding of 192.4k USDC to maintain and develop the main archive center of Nouns DAO for the next six months. Their focus is to increase media content and enhance user experience.
+Proposal 270,Supporter Count,6
+Proposal 270,Proposal Duration in Months,6
+Proposal 270,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 270,Opposer Count,137
+Proposal 270,Proposer,0xf2b7bfcdd6b596767e346269a8675472b45d098f
+Proposal 270,Proposal Budget,4k USD
+Proposal 270,Id,270
+Proposal 270,Proposal Type,Archives.wtf
+Proposal 270,Proposal Type,Funding
+Proposal 270,Proposal Type,Maintaining
+Proposal 271,Quorumvotes,137
 Proposal 271,Id,271
 Proposal 271,Proposer,0x83fcfe8ba2fece9578f0bbafed4ebf5e915045b9
-Proposal 271,Quorumvotes,137
-Proposal 271,ExecutionETA,2023-05-06
-Proposal 271,Status,QUEUED
-Proposal 271,Summary,"Tasha K. Rookswater is requesting 25 ETH to cover living expenses while writing her middle-grade novel, ""The Nominal Hero,"" which will be placed in the public domain."
-Proposal 271,Proposal Budget,25 ETH
-Proposal 271,Label,“The Nominal Hero”: A Nouns Middle Grade Novel
-Proposal 271,Opposer Count,31
+Proposal 271,Proposal Submission Date,2023-04-24
 Proposal 271,Proposal Type,Middlegrade novel
+Proposal 271,Status,EXECUTED
+Proposal 271,Label,“The Nominal Hero”: A Nouns Middle Grade Novel
+Proposal 271,Summary,Tasha K.
+Proposal 271,Proposal Budget,25 ETH
+Proposal 271,Team Name,Tasha K.
+Proposal 271,Supporter Count,179
 Proposal 271,Proposal Type,The nominal hero
-Proposal 272,Summary,"The federation autobidder was used to acquire Noun successfully and set ENS reverse record, withdrawing remaining balance."
-Proposal 272,Quorumvotes,137
-Proposal 272,Proposer,0x13eef4ef8fca471f242ab0f8f49a3db6017ada33
-Proposal 272,Proposal Budget,0 ETH
-Proposal 272,Id,272
-Proposal 272,Supporter Count,29
-Proposal 272,Label,Autobidder: Withdraw ETH and set ENS reverse record
-Proposal 272,Opposer Count,17
-Proposal 272,Status,EXECUTED
-Proposal 272,Proposal Type,Autobidder
+Proposal 271,Opposer Count,182
 Proposal 272,Proposal Type,Eth
+Proposal 272,Id,272
+Proposal 272,Proposal Type,Autobidder
+Proposal 272,Proposer,0x13eef4ef8fca471f242ab0f8f49a3db6017ada33
 Proposal 272,Proposal Type,Withdraw
-Proposal 273,Proposal Type,N
+Proposal 272,Proposal Submission Date,2023-04-24
+Proposal 272,Supporter Count,184
+Proposal 272,Status,EXECUTED
+Proposal 272,Label,Autobidder: Withdraw ETH and set ENS reverse record
+Proposal 272,Summary,"The Federation Autobidder was used to acquire a Noun, and a proposal was made to set an ENS reverse record and withdraw the contract balance."
+Proposal 272,Proposal Budget,0.98 ETH
+Proposal 272,Opposer Count,105
+Proposal 272,Quorumvotes,137
+Proposal 273,Opposer Count,133
+Proposal 273,Supporter Count,6
+Proposal 273,Proposal Duration in Months,6
 Proposal 273,Proposal Type,Web3
-Proposal 273,Proposal Type,Nouns
+Proposal 273,Proposal Budget,"$129,000"
+Proposal 273,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 273,Label,WarpedWorld: Nouns Get Warped ⌐◨-◨
 Proposal 273,Proposal Type,Warpedworld
-Proposal 273,Opposer Count,16
-Proposal 273,Supporter Count,3
+Proposal 273,Proposal Type,Nouns
+Proposal 273,Summary,"Unitedtribes and NounsDAO partner with the founders of Warped Tour to bring WarpedWorld to the NFT space, creating a new community empowered by NFT technology."
 Proposal 273,Quorumvotes,137
 Proposal 273,Status,CANCELLED
-Proposal 273,Label,WarpedWorld: Nouns Get Warped ⌐◨-◨
-Proposal 273,Summary,"Unitedtribes and NounsDAO collaborate with Creative Artists Agency to bring Warpedworld, a reimagined music festival, to the nouns ecosystem using NFT technology."
-Proposal 273,Proposal Budget,"USD 129,000"
-Proposal 273,Proposal Deadline,6 months
-Proposal 273,Proposer,0x9d3bede31f1c3b8532b98d8a9569e4b5b3fb6ba8
+Proposal 273,Proposal Submission Date,2023-04-25
 Proposal 273,Id,273
+Proposal 273,Proposer,0x9d3bede31f1c3b8532b98d8a9569e4b5b3fb6ba8
+Proposal 274,Opposer Count,125
 Proposal 274,Proposal Type,Oni residency
-Proposal 274,Proposal Type,Discord
 Proposal 274,Proposal Type,Nouns community
-Proposal 274,Quorumvotes,137
-Proposal 274,Supporter Count,31
+Proposal 274,Proposal Type,Discord
 Proposal 274,Id,274
+Proposal 274,Proposal Submission Date,2023-04-25
 Proposal 274,Proposer,0x91dccaa260cc4616e1a6e6b693db7207c5e42937
-Proposal 274,Status,EXECUTED
 Proposal 274,Label,Oni Residency: Nouns Community Discord & Onboarding
-Proposal 274,Summary,The proposal requests funding for rebranding The Jungle into a general Nouns DAO community discord and onboarding new members.
-Proposal 274,Proposal Deadline,6 months
-Proposal 274,Proposal Budget,USD 9694
-Proposal 274,Opposer Count,17
+Proposal 274,Summary,"The proposal requests funding to transform the Jungle into a general Nouns DAO community discord and onboard new members. It also includes managing the discord, facilitating weekly calls, and engaging with other Nounish communities."
+Proposal 274,Proposal Budget,9694.20 USD
+Proposal 274,Proposal Duration in Months,6
 Proposal 274,Team Name,Jungle
-Proposal 275,Opposer Count,0
-Proposal 275,Id,275
-Proposal 275,Label,Treasury Diversification: Swap 400 wstETH -> rETH via TWAMM
-Proposal 275,Summary,The Nouns DAO is diversifying its treasury by swapping 400 wsteth for reth via an on-chain AMM protocol called Twamm. The trade will have low fees and is flexible with full control of orders and assets.
-Proposal 275,Proposal Budget,400 ETH
-Proposal 275,Team Name,Nouns
-Proposal 275,Supporter Count,0
-Proposal 275,Status,CANCELLED
-Proposal 275,Proposer,0x29c5dad7e34d0a27d6f65a0a7e07e4d03dcd68c8
-Proposal 275,Quorumvotes,69
+Proposal 274,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 274,Supporter Count,157
+Proposal 274,Quorumvotes,137
+Proposal 274,Status,EXECUTED
+Proposal 275,Proposal Type,Wst
 Proposal 275,Proposal Type,Swap
 Proposal 275,Proposal Type,Treasury diversification
-Proposal 275,Proposal Type,Wst
-Proposal 277,Proposal Type,Hardware
-Proposal 277,Proposal Type,N
-Proposal 277,Label,Open Source Nounish Hardware + Production
-Proposal 277,Opposer Count,13
-Proposal 277,Supporter Count,27
-Proposal 277,Transfer Value,75.0 ETH
-Proposal 277,Transfer To,0x716ede25d72f360d28b8139735532bc9f7ec7ee1
-Proposal 277,Proposal Deadline,6 months
-Proposal 277,Proposal Budget,75 ETH
-Proposal 277,Id,277
-Proposal 277,Proposal Type,Production
-Proposal 277,Proposer,0x93d94557824ac07a30b5b0f44f7cb3e00f9c4191
-Proposal 277,Status,EXECUTED
-Proposal 277,Summary,"The proposal suggests creating 600 Noggles LED keychains, open-sourcing the firmware and hardware, and distributing them to hardware enthusiasts and the Nouns community."
-Proposal 277,Quorumvotes,138
+Proposal 275,Proposal Budget,The proposal asks for a swap of 400 wsteth to reth.
+Proposal 275,Team Name,Nouns
+Proposal 275,Summary,Swap 400 wsteth for reth via twamm to diversify the Nouns DAO treasury with low fees and on-chain transparency.
+Proposal 275,Label,Treasury Diversification: Swap 400 wstETH -> rETH via TWAMM
+Proposal 275,Status,CANCELLED
+Proposal 275,Quorumvotes,69
+Proposal 275,Proposal Submission Date,2023-04-26
+Proposal 275,Proposer,0x29c5dad7e34d0a27d6f65a0a7e07e4d03dcd68c8
+Proposal 275,Id,275
+Proposal 276,Proposal Type,Mobile platformer game
+Proposal 276,Proposal Type,Nounish playground
+Proposal 276,Proposal Duration in Months,12
+Proposal 276,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 276,Proposal Budget,"$90,000"
+Proposal 276,Label,Nounish Playground - The Game
+Proposal 276,Status,ACTIVE
+Proposal 276,Quorumvotes,138
+Proposal 276,Proposal Submission Date,2023-04-26
+Proposal 276,Supporter Count,89
+Proposal 276,Proposer,0x4756e5a5d0668195feb1ec0e7f96832ffc51c4a8
+Proposal 276,Id,276
+Proposal 276,Summary,"Nounish Playground is a mobile platformer game with 700 levels that educates players on Nounish concepts and DAOs, seeking $90,000 for an alpha version."
+Proposal 276,Opposer Count,151
 Proposal 277,Proposal Type,Open source
-Proposal 278,Quorumvotes,138
-Proposal 278,Id,278
-Proposal 278,Proposer,0xbc3ed6b537f2980e66f396fe14210a56ba3f72c4
-Proposal 278,Status,QUEUED
-Proposal 278,ExecutionETA,2023-05-09
-Proposal 278,Summary,"Coinbase created a ""Stand with Crypto"" NFT collection and Zora is donating their $1 fee to Gitcoin's crypto advocacy round. Nouns DAO proposes to mint 5k NFTs and donate $100k to Gitcoin."
-Proposal 278,Team Name,Nouns
-Proposal 278,Proposal Budget,USD 55
-Proposal 278,Label,"Mint 5k ""Stand with Crypto"" NFTs and donate $100k to Gitcoin Crypto Advocacy Round"
-Proposal 278,Transfer To,0xde21f729137c5af1b01d73af1dc21effa2b8a0d6
-Proposal 278,Transfer Value,55.0 ETH
-Proposal 278,Opposer Count,16
-Proposal 278,Proposal Type,Nft
-Proposal 278,Proposal Type,Stand with crypto
-Proposal 278,Proposal Type,Mint
-Proposal 278,Supporter Count,28
-Proposal 279,Supporter Count,30
+Proposal 277,Proposal Type,Hardware
+Proposal 277,Opposer Count,121
+Proposal 277,Supporter Count,154
+Proposal 277,Transfer To,0x716ede25d72f360d28b8139735532bc9f7ec7ee1
+Proposal 277,Proposal Type,Production
+Proposal 277,Proposal Duration in Months,6
+Proposal 277,Proposal Budget,"The proposal is requesting 75ξ for the development and production of 600 artisanal noggles led keychains, with"
+Proposal 277,Quorumvotes,138
+Proposal 277,Status,EXECUTED
+Proposal 277,Label,Open Source Nounish Hardware + Production
+Proposal 277,Summary,"The proposal is to create 600 open-source Noggles LED keychains for purchase and distribution, with 50 units supplied to the DAO and 100% profit/mint revenue going to the DAO, costing 75ξ across 6 months."
+Proposal 277,Proposer,0x93d94557824ac07a30b5b0f44f7cb3e00f9c4191
+Proposal 277,Id,277
+Proposal 277,Proposal Submission Date,2023-04-26
+Proposal 279,Opposer Count,130
+Proposal 279,Supporter Count,143
 Proposal 279,Proposer,0x0b3cf56e7df3bb3fb7201ffcd96d279b05ddd2e3
-Proposal 279,Summary,"Ethos is an open-source mobile OS for Ethereum that aims to improve the web3 mobile experience. They are seeking funding to launch a turn-key, consumer-friendly ethos device and will make it available pre-installed on current Pixel 7s."
-Proposal 279,Transfer Value,40.0 ETH
-Proposal 279,Transfer To,0x55a4e5123f8923500ff7aa97e75231a54a9c233a
-Proposal 279,Proposal Budget,USD 40
-Proposal 279,Opposer Count,16
+Proposal 279,Status,EXECUTED
+Proposal 279,Proposal Budget,$76k
+Proposal 279,Summary,"Ethos is an open-source mobile OS that embraces Ethereum and offers a system-level wallet to enable direct interaction between mobile applications and Ethereum, making web3 delightful on mobile."
 Proposal 279,Label,"ethOS: A crypto-native, mobile OS"
-Proposal 279,Id,279
-Proposal 279,Proposal Type,Cryptonative
 Proposal 279,Proposal Type,Mobile os
-Proposal 279,Quorumvotes,138
-Proposal 279,ExecutionETA,2023-05-10
-Proposal 279,Status,QUEUED
+Proposal 279,Transfer To,0x55a4e5123f8923500ff7aa97e75231a54a9c233a
 Proposal 279,Proposal Type,Ethos
-Proposal 280,Summary,Jellyfish noun 687 has been acquired and named Jello on the NFT identity registry NFTR on Ethereum.
-Proposal 280,Opposer Count,10
-Proposal 280,Label,Name (recently acquired) Noun 687 on NFTR
-Proposal 280,ExecutionETA,2023-05-11
-Proposal 280,Status,QUEUED
-Proposal 280,Quorumvotes,111
+Proposal 279,Id,279
+Proposal 279,Proposal Submission Date,2023-04-28
+Proposal 279,Quorumvotes,138
+Proposal 279,Proposal Type,Cryptonative
 Proposal 280,Proposer,0xaec4075e4fc8ce829bc4f0cfd5e2fa10dd2b12d1
-Proposal 280,Id,280
-Proposal 280,Team Name,NFT
-Proposal 280,Supporter Count,21
+Proposal 280,Proposal Submission Date,2023-04-28
+Proposal 280,Quorumvotes,111
+Proposal 280,Status,EXECUTED
+Proposal 280,Label,Name (recently acquired) Noun 687 on NFTR
 Proposal 280,Proposal Type,Nftr
+Proposal 280,Proposal Budget,The naming credit for Jello is free.
+Proposal 280,Team Name,NFT
+Proposal 280,Supporter Count,112
+Proposal 280,Opposer Count,55
 Proposal 280,Proposal Type,Ethereum
 Proposal 280,Proposal Type,Naming
-Proposal 280,Proposal Type,N
-Proposal 281,Opposer Count,16
-Proposal 281,Proposal Deadline,5 months
-Proposal 281,Proposal Budget,"USD 200,000"
-Proposal 281,Summary,"The proposal suggests creating innovative, affordable noun-computers and noun-breadbook devices that enhance software and hardware prototyping."
-Proposal 281,Label,Introducing Noun Computers
+Proposal 280,Id,280
+Proposal 280,Summary,"Jellyfish Noun 687 has been acquired and named ""Jello"" on the NFT identity registry NFTR on Ethereum."
 Proposal 281,Status,CANCELLED
-Proposal 281,Quorumvotes,139
 Proposal 281,Proposer,0xdf6e59c6df1e9500fd35a76ff4c62f9901e90019
-Proposal 281,Id,281
-Proposal 281,Transfer Value,608.26 ETH
-Proposal 281,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 281,Supporter Count,1
-Proposal 281,Proposal Type,Nouncomputers
+Proposal 281,Proposal Submission Date,2023-04-30
+Proposal 281,Quorumvotes,139
+Proposal 281,Label,Introducing Noun Computers
+Proposal 281,Summary,The proposal suggests creating affordable and versatile single-board computers and a new type of breadboard for software and hardware developers. The devices will be sold at a fixed price to prevent price inconsistencies.
+Proposal 281,Proposal Budget,The proposal suggests a price range of $40-$60 for the noun-computer.
+Proposal 281,Proposal Duration in Months,5
+Proposal 281,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 281,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
 Proposal 281,Proposal Type,Nounbread
-Proposal 283,Opposer Count,11
-Proposal 283,Supporter Count,2
-Proposal 283,Summary,"Wears.wtf is a clothing brand that will transform cc0 assets into clothing. The project will have two phases, proof-of-demand and production expansion."
+Proposal 281,Proposal Type,Nouncomputers
+Proposal 281,Supporter Count,2
+Proposal 281,Opposer Count,105
+Proposal 281,Id,281
+Proposal 281,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
+Proposal 282,Proposal Type,Dynamic quorum updates
+Proposal 282,Quorumvotes,139
+Proposal 282,Opposer Count,167
+Proposal 282,Supporter Count,182
+Proposal 282,Team Size,20
+Proposal 282,Previous Proposal,Proposal 261
+Proposal 282,Proposal Budget,The proposed maximum quorum is 15%.
+Proposal 282,Summary,This proposal suggests reducing the maximum quorum from 20% to 15% to incentivize voter participation and increase DAO health.
+Proposal 282,Label,Dynamic Quorum Updates
+Proposal 282,Status,EXECUTED
+Proposal 282,Proposal Submission Date,2023-05-01
+Proposal 282,Proposer,0xb9e43e4fa60c0a702a417d5e7e6df37151c1da28
+Proposal 282,Id,282
+Proposal 282,Proposal Type,Minimum quorum
 Proposal 283,Label,"Clothing, Every Day, Forever"
 Proposal 283,Status,ACTIVE
-Proposal 283,Id,283
-Proposal 283,Proposal Budget,"USD 75,800"
-Proposal 283,Quorumvotes,124
-Proposal 283,Proposer,0x1db19b9903c5510aa5a866ea643eb021cd12bda0
-Proposal 283,Proposal Type,Clothing
-Proposal 283,Proposal Type,Every day
-Proposal 283,Proposal Type,Forever
 Proposal 283,Proposal Type,Wears
-Proposal 284,Proposal Deadline,2023-05-22 00:00:00
-Proposal 284,Supporter Count,3
-Proposal 284,Proposal Budget,"USD 42,000"
-Proposal 284,Summary,"The proposal aims to fund Pizzadao's third global pizza party for Bitcoin Pizza Day on May 22, 2023, by co-branding with Nouns and purchasing pizza from independent pizzerias worldwide using the $42,000 grant."
-Proposal 284,Label,Let’s Throw a Global Pizza Party! Nouns x PizzaDAO
-Proposal 284,Status,ACTIVE
-Proposal 284,Quorumvotes,96
-Proposal 284,Proposer,0x9ae8912ea6562957043c8d048641aa9b450c397f
-Proposal 284,Opposer Count,4
-Proposal 284,Proposal Type,Pizzadao
-Proposal 284,Proposal Type,Global pizza party
+Proposal 283,Proposal Type,Forever
+Proposal 283,Opposer Count,193
+Proposal 283,Proposal Type,Every day
+Proposal 283,Supporter Count,1
+Proposal 283,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 283,Proposal Type,Clothing
+Proposal 283,Id,283
+Proposal 283,Proposer,0x1db19b9903c5510aa5a866ea643eb021cd12bda0
+Proposal 283,Proposal Budget,"75,800 USD"
+Proposal 283,Quorumvotes,139
+Proposal 283,Summary,"Wears.wtf is a clothing brand that will use cc0 assets to create sustainable, ready-to-wear clothing. They will collaborate with Leblancstudios and have a two-phase plan to gauge community interest and expand production."
+Proposal 283,Proposal Submission Date,2023-05-02
+Proposal 284,Opposer Count,72
 Proposal 284,Id,284
-Proposal 285,Quorumvotes,70
-Proposal 285,Summary,"NFT.Brasil is organizing a conference in Sao Paulo to showcase NFT art and technology, with a focus on community building. They are also planning an open-air NFT exhibition, a lounge, and a metaverse."
-Proposal 285,Team Name,nft.brasil
-Proposal 285,Status,PENDING
-Proposal 285,Opposer Count,0
-Proposal 285,Id,285
-Proposal 285,Supporter Count,0
-Proposal 285,Proposer,0x67a690caf73ae9381d09be6f1ce584bbe49d788a
-Proposal 285,Proposal Deadline,9 months
-Proposal 285,Label,🇧🇷 NFT.Brasil - Taking Over São Paulo and Celebrating the Brazilian Community
-Proposal 285,Proposal Budget,"USD 90,000"
-Proposal 285,Proposal Type,São paulo
-Proposal 285,Proposal Type,Nft.brasil
-Proposal 287,Opposer Count,0
-Proposal 287,Previous Proposal,Proposal 141
-Proposal 287,Team Name,Bigshot Toyworks
-Proposal 287,Proposer,0x008c84421da5527f462886cec43d2717b686a7e4
-Proposal 287,Status,PENDING
-Proposal 287,Quorumvotes,70
-Proposal 287,Id,287
-Proposal 287,Supporter Count,0
-Proposal 287,Label,NOUNISH FRIENDS mini-figures
-Proposal 287,Summary,"Nounish Friends are colorful mini-figures with interchangeable heads and glasses, created to promote Nouns. Bigshot Toyworks will produce 6,000 units for retail and wholesale."
-Proposal 287,Proposal Type,Nounish friends
+Proposal 284,Supporter Count,185
+Proposal 284,Proposal Type,Global pizza party
+Proposal 284,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 284,Proposal Budget,"$42,000"
+Proposal 284,Summary,The proposal aims to nounify the world's largest decentralized pizza party by co-branding with Pizzadao and providing funding for Bitcoin Pizza Day events.
+Proposal 284,Label,Let’s Throw a Global Pizza Party! Nouns x PizzaDAO
+Proposal 284,Status,EXECUTED
+Proposal 284,Proposal Type,Pizzadao
+Proposal 284,Proposer,0x9ae8912ea6562957043c8d048641aa9b450c397f
+Proposal 284,Proposal Submission Date,2023-05-02
+Proposal 284,Quorumvotes,132
+Proposal 286,Id,286
+Proposal 286,Proposal Type,Nouns wet wipes
+Proposal 286,Proposal Type,Fmcg
+Proposal 286,Supporter Count,177
+Proposal 286,Sendorregisterdebt To,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 286,Transfer To,0xd895eec6767970660a846423a409e83454e9ea95
+Proposal 286,Proposal Duration in Months,3
+Proposal 286,Summary,"Nouns Wet Wipes, designed to increase brand awareness, will be sold at retail outlets and events. A marketing budget is requested. Five designs are presented for voting."
+Proposal 286,Label,Nouns Wet Wipes V2 - Vote for your favourite Design!!!
+Proposal 286,Status,EXECUTED
+Proposal 286,Quorumvotes,140
+Proposal 286,Proposal Submission Date,2023-05-08
+Proposal 286,Proposer,0x43e3ab994070db606042e8deffd146300cb52919
+Proposal 286,Proposal Budget,"USD 31,450 and 2 ETH"
+Proposal 286,Opposer Count,177
 Proposal 287,Proposal Type,Minifigures
+Proposal 287,Proposal Type,Nounish friends
+Proposal 287,Supporter Count,280
+Proposal 287,Label,NOUNISH FRIENDS mini-figures
 Proposal 287,Team Size,6
-Proposal 287,Proposal Budget,"USD 125,000"
-Proposal 288,Proposal Budget,0 ETH
-Proposal 288,Proposal Deadline,2023-06-03 00:00:00
-Proposal 288,Supporter Count,0
-Proposal 288,Opposer Count,0
-Proposal 288,Quorumvotes,70
+Proposal 287,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 287,Opposer Count,45
+Proposal 287,Team Name,Bigshot Toyworks
+Proposal 287,Proposal Budget,"$125,000"
+Proposal 287,Summary,"Nounish Friends are modular, colorful mini-figures designed to promote Nouns. Bigshot Toyworks will produce 6,000 units for retail and wholesale sales."
+Proposal 287,Id,287
+Proposal 287,Previous Proposal,Proposal 141
+Proposal 287,Quorumvotes,115
+Proposal 287,Proposal Submission Date,2023-05-08
+Proposal 287,Proposer,0x008c84421da5527f462886cec43d2717b686a7e4
+Proposal 287,Status,EXECUTED
+Proposal 288,Status,EXECUTED
+Proposal 288,Createedition To,0xf74b146ce44cc162b601dec3be331784db111dc1
+Proposal 288,Supporter Count,229
+Proposal 288,Quorumvotes,115
+Proposal 288,Proposal Duration in Months,1
 Proposal 288,Proposal Type,100 nounish things
-Proposal 288,Proposer,0x49a5aeec7d9ac70990404278e93031e4c3c71875
-Proposal 288,Id,288
-Proposal 288,Summary,"Nounish created a music video celebrating 100 things funded by Nouns DAO, available as an NFT with revenue split between parties."
-Proposal 288,Status,PENDING
+Proposal 288,Summary,"The ""100 Nounish Things"" music video celebrates the amazing achievements of nouns funded by the Nouns DAO."
 Proposal 288,Proposal Type,Nounish
 Proposal 288,Label,100 Nounish Things: a nounish droposal ⌐◨-◨
-Proposal 289,Proposal Budget,1 ETH
-Proposal 289,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
-Proposal 289,Previous Proposal,Proposal 143
-Proposal 289,Label,retain nounish for 6 months ⌐◨-◨
-Proposal 289,Proposal Deadline,6 months
-Proposal 289,Transfer Value,563.7 ETH
-Proposal 289,Status,PENDING
+Proposal 288,Id,288
+Proposal 288,Proposer,0x49a5aeec7d9ac70990404278e93031e4c3c71875
+Proposal 288,Proposal Submission Date,2023-05-09
+Proposal 288,Proposal Budget,0.03 ETH
+Proposal 288,Opposer Count,45
 Proposal 289,Proposal Type,Season
-Proposal 289,Proposer,0xae65e700f3f8904ac1007d47a5309dd26f8146c0
-Proposal 289,Id,289
-Proposal 289,Opposer Count,0
 Proposal 289,Proposal Type,Retain
-Proposal 289,Supporter Count,0
 Proposal 289,Proposal Type,Nounish
 Proposal 289,Proposal Type,Funding
-Proposal 289,Quorumvotes,70
-Proposal 289,Summary,"Season 1 of Nounish produced 92 minutes of video content, 80 new gifs, and gained 3 million views."
+Proposal 289,Proposal Budget,$969k
+Proposal 289,Summary,"""Nounish"" produced 92 minutes of high-quality video content, gained 3 million views, and increased followers 2.8x in season 1."
+Proposal 289,Quorumvotes,141
+Proposal 289,Transfer To,0x4f2acdc74f6941390d9b1804fabc3e780388cfe5
+Proposal 289,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 289,Supporter Count,230
+Proposal 289,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 289,Previous Proposal,Proposal 143
+Proposal 289,Proposal Duration in Months,6
+Proposal 289,Opposer Count,119
+Proposal 289,Proposal Submission Date,2023-05-09
+Proposal 289,Id,289
+Proposal 289,Proposer,0xae65e700f3f8904ac1007d47a5309dd26f8146c0
+Proposal 289,Label,retain nounish for 6 months ⌐◨-◨
+Proposal 289,Status,EXECUTED
+Proposal 290,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 290,Team Name,Nouns DAO and SCG Group
+Proposal 290,Supporter Count,29
+Proposal 290,Transfer To,0xf8dc2c73df9d0efc28752f12ce0f5213a7b84426
+Proposal 290,Proposal Type,Translation
+Proposal 290,Opposer Count,172
+Proposal 290,Proposal Type,Multiplatform social media campaign
+Proposal 290,Proposal Type,Funding
+Proposal 290,Id,290
+Proposal 290,Proposal Duration in Months,6
+Proposal 290,Proposal Budget,"$117,200"
+Proposal 290,Summary,"SCG Group will launch a multi-platform social media campaign for Nouns DAO in China, with the goal of building a long-lasting Nounish community."
+Proposal 290,Label,Nouns Chinese Socials: 6 Month Pilot
+Proposal 290,Status,CANCELLED
+Proposal 290,Quorumvotes,141
+Proposal 290,Proposal Submission Date,2023-05-10
+Proposal 290,Proposer,0x91dccaa260cc4616e1a6e6b693db7207c5e42937
+Proposal 291,Proposal Type,Public good
+Proposal 291,Proposal Type,Payments infrastructure
+Proposal 291,Quorumvotes,141
+Proposal 291,Opposer Count,101
+Proposal 291,Supporter Count,58
+Proposal 291,Proposal Type,Nouns stream
+Proposal 291,Transfer To,0xb0750df14fe7cf5b7a99df2243e0b873d1691204
+Proposal 291,Proposal Budget,16 ETH
+Proposal 291,Summary,"Nouns Stream is an open-source, free, permission-less protocol that allows phased or periodic payments, supporting various payment modes. The developers ask for a retroactive grant of 16 ETH to cover the cost of the audit and deployment."
+Proposal 291,Label,Nouns Stream Proposal: Payments infrastructure public good by Nouns DAO
+Proposal 291,Status,ACTIVE
+Proposal 291,Id,291
+Proposal 291,Proposal Submission Date,2023-05-11
+Proposal 291,Proposer,0x3b60e31cfc48a9074cd5bebb26c9eaa77650a43f
+Proposal 292,Proposal Type,Balance
+Proposal 292,Proposal Type,Refill
+Proposal 292,Proposer,0xa86882277e69fbf0a51805cdc8b0a3a113079e63
+Proposal 292,Proposal Submission Date,2023-05-11
+Proposal 292,Quorumvotes,115
+Proposal 292,Status,QUEUED
+Proposal 292,ExecutionETA,2023-05-23
+Proposal 292,Label,Refill voteRefund balance
+Proposal 292,Summary,"The voterefund function is important for the DAO's health, and it needs a top-up of 15 ETH to maintain it."
+Proposal 292,Proposal Budget,15 ETH
+Proposal 292,Team Name,DAO
+Proposal 292,Transfer To,0x6f3e6272a167e8accb32072d08e0957f9c79223d
+Proposal 292,Supporter Count,170
+Proposal 292,Opposer Count,45
+Proposal 292,Proposal Type,Voterefund
+Proposal 292,Id,292
+Proposal 292,Proposal Duration in Months,7
+Proposal 293,Quorumvotes,70
+Proposal 293,Label,Increase Proposal Supply
+Proposal 293,Proposal Submission Date,2023-05-11
+Proposal 293,Status,CANCELLED
+Proposal 293,Summary,"The proposal suggests lowering the proposal threshold to increase proposals, potentially leading to more funded proposals and expansion of the organization."
+Proposal 293,Proposal Budget,The proposal suggests reducing the threshold to 9bps.
+Proposal 293,Setproposalthresholdbps To,0x6f3e6272a167e8accb32072d08e0957f9c79223d
+Proposal 293,Proposer,0xb9e43e4fa60c0a702a417d5e7e6df37151c1da28
+Proposal 293,Id,293
+Proposal 293,Proposal Type,Supply
+Proposal 293,Proposal Type,Reducing
+Proposal 293,Proposal Type,Proposal threshold
+Proposal 293,Proposal Type,Keywords in this proposal are increase
+Proposal 294,Proposal Budget,The proposal asks for a threshold of 30bps.
+Proposal 294,Setproposalthresholdbps To,0x6f3e6272a167e8accb32072d08e0957f9c79223d
+Proposal 294,Summary,"The proposal suggests increasing the proposal threshold from 25 to 30bps, which will lead to fewer proposals and lower voter fatigue."
+Proposal 294,Label,Set Proposal Threshold to 30bps
+Proposal 294,Proposal Type,30bps
+Proposal 294,Status,CANCELLED
+Proposal 294,Id,294
+Proposal 294,Proposal Type,Success
+Proposal 294,Proposal Type,Proposal threshold
+Proposal 294,Proposal Submission Date,2023-05-12
+Proposal 294,Proposer,0x5606b493c51316a9e65c9b2a00bbf7ff92515a3e
+Proposal 294,Quorumvotes,70
+Proposal 295,Opposer Count,20
+Proposal 295,Supporter Count,47
+Proposal 295,Quorumvotes,90
+Proposal 295,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 295,Proposal Duration in Months,9
+Proposal 295,Proposal Type,São paulo
+Proposal 295,Proposal Budget,"$41,680"
+Proposal 295,Proposal Type,Nft.brasil
+Proposal 295,Summary,"The Nouns team made changes to their proposal for nft.brasil event based on community feedback, including lowering the metaverse activation and scaling down the lounge."
+Proposal 295,Label,🇧🇷 NFT.Brasil - Taking Over São Paulo and Celebrating the Brazilian Community 2
+Proposal 295,Status,ACTIVE
+Proposal 295,Proposal Submission Date,2023-05-17
+Proposal 295,Proposer,0x41cb654d1f47913acab158a8199191d160dabe4a
+Proposal 295,Id,295
+Proposal 296,Proposal Type,Fitness
+Proposal 296,Proposal Duration in Months,6
+Proposal 296,Status,PENDING
+Proposal 296,Sendorregisterdebt To Nouns,0xd97bcd9f47cee35c0a9ec1dc40c1269afc9e8e1d
+Proposal 296,Proposal Budget,"$52,650"
+Proposal 296,Team Name,the Nouns Running Club
+Proposal 296,Label,"Nouns Running Club - Fun, Fitness, and Frens"
+Proposal 296,Proposal Type,Fun
+Proposal 296,Quorumvotes,71
+Proposal 296,Proposal Submission Date,2023-05-20
+Proposal 296,Proposer,0xe7304ba0f157f2ade94015934284b6704bc72911
+Proposal 296,Id,296
+Proposal 296,Proposal Type,Nouns running club
+Proposal 296,Summary,"The Nouns Running Club is a global community promoting fun, fitness, and friendship among runners of all levels in the crypto industry."
+Proposal 297,Proposer,0xf2b7bfcdd6b596767e346269a8675472b45d098f
+Proposal 297,Team Name,Voadz
+Proposal 297,Proposal Duration in Months,6
+Proposal 297,Proposal Budget,50 ETH
+Proposal 297,Summary,"The authors of archives.wtf ask for 50 ETH to develop the platform further, with new features, publications, and a contributor leaderboard."
+Proposal 297,Proposal Type,Develop
+Proposal 297,Label,Archives.wtf - Extension Rev.
+Proposal 297,Proposal Type,Archives.wtf
+Proposal 297,Proposal Type,Funding
+Proposal 297,Status,PENDING
+Proposal 297,Quorumvotes,71
+Proposal 297,Proposal Submission Date,2023-05-20
+Proposal 297,Id,297
+Proposal 297,Transfer To,0xdd7e4d8a5fef6702f7e9c5b45db440ba7a6e00c0

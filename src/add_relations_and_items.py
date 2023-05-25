@@ -11,85 +11,41 @@ DATA = HERE.parent.joinpath("data").resolve()
 
 # Read the KG data
 kg = pd.read_csv(DATA.joinpath("KG_view1.csv"))
-
-# Login to Wikidata
-wd_login = wdi_login.WDLogin(user=WD_USER, pwd=WD_PASS, mediawiki_api_url=api_url)
+# kg["object"] = [a.split("-")[0].strip() for a in kg["object"]]
 
 
-# Create property in wikibase if it doesn't exist
-def create_property_if_not_exists(property_name):
-    if property_name not in properties_in_wikibase.keys():
-        property_datatype = ""
-        if property_name in item_properties:
-            property_datatype = "wikibase-item"
-        if property_name in string_properties:
-            property_datatype = "string"
-        if property_name in quantity_properties:
-            property_datatype = "quantity"
-        if property_datatype == "":
-            return None
-        new_property = createProperty(
-            login=wd_login,
-            label=property_name,
-            description="machine-generated property",
-            property_datatype=property_datatype,
-        )
-        print(f"Property {new_property} created successfully.")
-        return new_property
-    else:
-        return None
+# Add the vote weight property to be used as qualifier
+if "Vote Weight" not in properties_in_wikibase.keys():
+    new_property = createProperty(
+        label="Vote Weight",
+        description="Qualifier for 'Supported By' and 'Opposed By' properties. ",
+        property_datatype="quantity",
+    )
+# Add node types to Wikibase
+create_item_if_not_exists(
+    "Proposal",
+    "Proposal",
+    "The concept of a proposal in the Nouns platform.",
+    "Q1",
+    ["Nouns Proposal"],
+)
+create_item_if_not_exists(
+    "Currency",
+    "Currency",
+    "A currency used for transactions and/or proposals in Nouns Includes ETH, USDC and USD.",
+    "Q1",
+    ["monetary standard"],
+)
 
+relations = set(kg["relation"])
 
-# Create item in wikibase if it doesn't exist
-def create_item_if_not_exists(
-    item_name, item_label, item_description, wd_item_id_value, item_aliases=None
-):
-    if item_name not in items_on_wikibase.keys():
-        data = [wdi_core.WDItemID(value=wd_item_id_value, prop_nr="P6")]
-        wd_item = wdi_core.WDItemEngine(
-            wd_item_id="",
-            new_item=True,
-            data=data,
-            mediawiki_api_url=api_url,
-            sparql_endpoint_url=sparql,
-        )
-        wd_item.set_label(label=item_label)
-        if item_aliases:
-            wd_item.set_aliases(item_aliases, lang="en", append=True)
-        wd_item.set_description(description=item_description)
-        qid = wd_item.write(wd_login)
-        items_on_wikibase[item_label] = qid
-        return wd_item
-    else:
-        return None
-
-    # Create all relation types for wikibase items
-
-
-for relation_type in set(kg["relation"]):
+for relation_type in relations:
     create_property_if_not_exists(relation_type)
-
-    # Add node types to Wikibase
-    create_item_if_not_exists(
-        "Proposal",
-        "Proposal",
-        "The concept of a proposal in the Nouns platform.",
-        "Q1",
-        ["Nouns Proposal"],
-    )
-    create_item_if_not_exists(
-        "Currency",
-        "Currency",
-        "A currency used for transactions and/or proposals in Nouns Includes ETH, USDC and USD.",
-        "Q1",
-        ["monetary standard"],
-    )
 
     # Add range types to Wikibase
     for range_type in set(relation_to_range_mapping.values()):
         create_item_if_not_exists(range_type, range_type, "A node type.", "Q1")
 
-    # Add currencies to the Wikibase.
     proposals = set(kg["subject"])
     for proposal in proposals:
         try:

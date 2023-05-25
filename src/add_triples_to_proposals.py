@@ -2,6 +2,10 @@ import pandas as pd
 from pathlib import Path
 from helper import *
 from login import *
+from time import strptime, strftime
+from wikibaseintegrator.datatypes import Item, String, Time, Quantity, URL
+from wikibaseintegrator.wbi_enums import ActionIfExists
+from wikibaseintegrator.models import Qualifiers
 
 # Resolve path to the data
 HERE = Path(__file__).parent.resolve()
@@ -9,44 +13,54 @@ DATA = HERE.parent.joinpath("data").resolve()
 
 # Read the KG data
 kg = pd.read_csv(DATA.joinpath("KG_view1.csv"))
-
-# Login to Wikidata
-wd_login = wdi_login.WDLogin(user=WD_USER, pwd=WD_PASS, mediawiki_api_url=api_url)
-
+# kg["object"] = [a.split("-")[0].strip() for a in kg["object"]]
 proposals = set(kg["subject"])
 
 for proposal in proposals:
-    if proposal != "Proposal 280":
-        continue
     kg_subset = kg[kg["subject"] == proposal]
     proposal_qid = items_on_wikibase[proposal]
-    item = wdi_core.WDItemEngine(
-        wd_item_id=proposal_qid,
-        new_item=False,
-        mediawiki_api_url=api_url,
-        sparql_endpoint_url=sparql,
-    )
-    item.get_wd_json_representation()
+    wbi = WikibaseIntegrator(login=login_instance)
+
+    item = wbi.item.get(entity_id=proposal_qid)
 
     data = []
     for i, row in kg_subset.iterrows():
         property_name = row["relation"]
         object_name = row["object"]
-
         if property_name in item_properties:
-            data.append(
-                wdi_core.WDItemID(
-                    value=items_on_wikibase[object_name],
-                    prop_nr=properties_in_wikibase[property_name],
+            if property_name in {"Supported By", "Opposed By"}:
+                new_qualifiers = Qualifiers()
+                new_qualifiers.add(
+                    Quantity(
+                        prop_nr=properties_in_wikibase["Vote Weight"],
+                        amount=int(row["weight"]),
+                    )
                 )
-            )
+
+                data.append(
+                    Item(
+                        value=items_on_wikibase[object_name],
+                        prop_nr=properties_in_wikibase[property_name],
+                        qualifiers=new_qualifiers,
+                    )
+                )
+            else:
+                data.append(
+                    Item(
+                        value=items_on_wikibase[object_name],
+                        prop_nr=properties_in_wikibase[property_name],
+                    )
+                )
 
         elif property_name in string_properties:
             data.append(
-                wdi_core.WDString(
-                    value=object_name, prop_nr=properties_in_wikibase[property_name]
-                )
+                String(value=object_name, prop_nr=properties_in_wikibase[property_name])
             )
+        elif property_name in date_properties:
+            time_struct = strptime(row["object"], "%Y-%m-%d")
+
+            wikidata_time = strftime("+%Y-%m-%dT00:00:00Z", time_struct)
+            data.append(Time(wikidata_time, prop_nr="P23"))
         elif property_name in quantity_properties:
             if property_name in {
                 "Supporter Count",
@@ -55,14 +69,14 @@ for proposal in proposals:
                 "Id",
             }:
                 data.append(
-                    wdi_core.WDQuantity(
-                        value=int(object_name),
+                    Quantity(
+                        amount=int(object_name),
                         prop_nr=properties_in_wikibase[property_name],
                     )
                 )
             if property_name == "Id":
                 data.append(
-                    wdi_core.WDUrl(
+                    URL(
                         value=f"https://nouns.wtf/vote/{str(object_name)}",
                         prop_nr="P21",  # Nouns URL property
                     )
@@ -71,5 +85,5 @@ for proposal in proposals:
         else:
             print(property_name)
         continue
-    item.update(data)
-    item.write(login=wd_login)
+    item.claims.add(data, action_if_exists=ActionIfExists.REPLACE_ALL)
+    item.write()
