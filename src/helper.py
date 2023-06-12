@@ -2,8 +2,9 @@ from login import *
 from wikibaseintegrator import wbi_login, WikibaseIntegrator
 from wikibaseintegrator.wbi_config import config as wbi_config
 from wikibaseintegrator import wbi_helpers
-from wikibaseintegrator.datatypes import Item
+from wikibaseintegrator.datatypes import Item, Property
 from wikibaseintegrator.wbi_exceptions import ModificationFailed
+from requests.exceptions import HTTPError
 
 wikibase_prefix = "nounsdev"
 wbi_config["MEDIAWIKI_API_URL"] = f"https://{wikibase_prefix}.wikibase.cloud/w/api.php"
@@ -48,7 +49,7 @@ def get_properties_in_wikibase():
     )
 
     for result in results["results"]["bindings"]:
-        label = result["label"]["value"].split("/")[-1]
+        label = result["label"]["value"]
         property_lookup[label] = result["property"]["value"].split("/")[-1]
 
     return property_lookup
@@ -69,7 +70,7 @@ def get_items_on_wikibase():
     )
 
     for result in results["results"]["bindings"]:
-        label = result["label"]["value"].split("/")[-1]
+        label = result["label"]["value"]
         item_lookup[label] = result["item"]["value"].split("/")[-1]
 
     return item_lookup
@@ -79,6 +80,58 @@ def get_items_on_wikibase():
 properties_in_wikibase = get_properties_in_wikibase()
 items_on_wikibase = get_items_on_wikibase()
 
+from pathlib import Path
+import json
+
+from pathlib import Path
+
+# Get the current working directory
+HERE = Path(__file__).parent.resolve()
+
+# Get existing properties and items in wikibase
+properties_in_wikibase = get_properties_in_wikibase()
+
+
+def update_by_key_value_pair(key, value):
+    # Load current items
+    current_items_path = HERE.joinpath("current_items.json")
+    if current_items_path.exists():
+        with open(current_items_path, "r") as f:
+            current_items = json.load(f)
+    else:
+        current_items = {}
+
+    # Update the dictionary with the provided key-value pair
+    current_items[key] = value
+
+    # Save updated items to file
+    with open(current_items_path, "w") as f:
+        json.dump(current_items, f, indent=4, sort_keys=True)
+
+
+# Define the method to update the current_items.json file
+def update_items_file():
+    # Load current items
+    current_items_path = HERE.joinpath("current_items.json")
+    if current_items_path.exists():
+        with open(current_items_path, "r") as f:
+            current_items = json.load(f)
+    else:
+        current_items = {}
+
+    # Update current items with items from wikibase
+    items_on_wikibase = get_items_on_wikibase()
+    current_items.update(items_on_wikibase)
+
+    # Save updated items to file
+    with open(current_items_path, "w") as f:
+        json.dump(current_items, f, indent=4, sort_keys=True)
+
+    return current_items
+
+
+# Call the method to update the current_items.json file
+items_on_wikibase = update_items_file()
 
 # Wikibase properties categorized by datatype
 item_properties = {
@@ -89,6 +142,18 @@ item_properties = {
     "Previous Proposal",
     "Supported By",
     "Opposed By",
+    "Createedition To",
+    "Sendorregisterdebt To",
+    "Sendorregisterdebt To Nouns",
+    "Setproposalthresholdbps To",
+    "Abstained By",
+}
+
+inverse_properties = {
+    "Supported By": "Supported",
+    "Opposed By": "Opposed",
+    "Abstained By": "Abstained",
+    "Proposer": "Proposed",
 }
 
 # Mapping of relations to their corresponding range
@@ -98,8 +163,13 @@ relation_to_range_mapping = {
     "Proposer": "Individual",
     "Supported By": "Individual",
     "Opposed By": "Individual",
+    "Abstained By": "Individual",
     "Previous Proposal": "Proposal",
     "Status": "Status",
+    "Createedition To": "Individual",
+    "Sendorregisterdebt To Nouns": "Individual",
+    "Sendorregisterdebt To": "Individual",
+    "Setproposalthresholdbps To": "Individual",
 }
 
 date_properties = {"ExecutionETA", "Proposal Submission Date"}
@@ -110,9 +180,17 @@ quantity_properties = {
     "Proposal Budget",
     "Supporter Count",
     "Opposer Count",
+    "Abstain Count",
     "Quorumvotes",
     "Id",
     "Team Size",
+    "Proposal Budget in USD",
+    "Proposal Budget in ETH",
+    "Proposal Budget in stETH",
+    "Transfer Value in ETH",
+    "Sendorregisterdebt Value To Nouns",
+    "Sendorregisterdebt Value",
+    "Setproposalthresholdbps Value",
 }
 
 
@@ -142,11 +220,14 @@ def create_property_if_not_exists(property_name):
         return None
 
 
-# Create item in wikibase if it doesn't exist
+import re
+
+
 def create_item_if_not_exists(
     item_name, item_label, item_description, wd_item_id_value, item_aliases=None
 ):
     if item_name not in items_on_wikibase.keys():
+        print(item_name)
         wbi = WikibaseIntegrator(login=login_instance)
 
         data = [Item(value=wd_item_id_value, prop_nr="P6")]
@@ -160,6 +241,19 @@ def create_item_if_not_exists(
         try:
             item.write()
         except ModificationFailed as e:
+            print(e)
+            # Parse the error message to get the label and QID
+            error_message = str(e)
+            match = re.search(
+                r'Item \[\[Item:(Q[0-9]+)\|(Q[0-9]+)\]\] already has label "(.*?)"',
+                error_message,
+            )
+            if match:
+                item_qid = match.group(1)
+                item_label = match.group(3)
+                # Update the dictionary with the label and QID
+                update_by_key_value_pair(item_label, item_qid)
+        except HTTPError as e:
             print(e)
             pass
     else:

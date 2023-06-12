@@ -12,12 +12,12 @@ HERE = Path(__file__).parent.resolve()
 DATA = HERE.parent.joinpath("data").resolve()
 
 # Read the KG data
-kg = pd.read_csv(DATA.joinpath("KG_view1.csv"))
-# kg["object"] = [a.split("-")[0].strip() for a in kg["object"]]
+kg = pd.read_csv(DATA.joinpath("KG_view2.csv"))
 proposals = set(kg["subject"])
 
 for proposal in proposals:
     kg_subset = kg[kg["subject"] == proposal]
+
     proposal_qid = items_on_wikibase[proposal]
     wbi = WikibaseIntegrator(login=login_instance)
 
@@ -27,6 +27,9 @@ for proposal in proposals:
     for i, row in kg_subset.iterrows():
         property_name = row["relation"]
         object_name = row["object"]
+        if pd.isna(object_name):
+            continue
+
         if property_name in item_properties:
             if property_name in {"Supported By", "Opposed By"}:
                 new_qualifiers = Qualifiers()
@@ -53,6 +56,8 @@ for proposal in proposals:
                 )
 
         elif property_name in string_properties:
+            if "\n" in object_name:
+                object_name = object_name.replace("\n", " --- ")
             data.append(
                 String(value=object_name, prop_nr=properties_in_wikibase[property_name])
             )
