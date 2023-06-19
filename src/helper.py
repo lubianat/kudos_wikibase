@@ -15,7 +15,6 @@ wbi_config["WIKIBASE_URL"] = f"https://{wikibase_prefix}.wikibase.cloud"
 
 wbi_config["USER_AGENT"] = "NounsWikibaseBot"
 
-
 login_instance = wbi_login.Clientlogin(user=WD_USER, password=WD_PASS)
 
 

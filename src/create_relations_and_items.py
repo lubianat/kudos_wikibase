@@ -85,8 +85,6 @@ def add_inverse_properties(inverse_properties, properties_in_wikibase, login_ins
 
 def main():
     # Read the KG data
-    kg = pd.read_csv(DATA.joinpath("KG_view1.csv"))
-    add_inverse_properties(inverse_properties, properties_in_wikibase, login_instance)
 
     add_property_if_not_exists(
         properties_in_wikibase,
@@ -101,11 +99,23 @@ def main():
         "property",
     )
 
+    kg = pd.read_csv(DATA.joinpath("KG_view1.csv"))
+
     add_node_types()
     add_relation_types(kg)
     add_range_types(relation_to_range_mapping)
     add_proposals(kg, items_on_wikibase)
     add_objects(kg, relation_to_range_mapping, items_on_wikibase)
+    add_inverse_properties(inverse_properties, properties_in_wikibase, login_instance)
+
+    kg = pd.read_csv(DATA.joinpath("KG_view2.csv"))
+
+    add_node_types()
+    add_relation_types(kg)
+    add_range_types(relation_to_range_mapping)
+    add_proposals(kg, items_on_wikibase)
+    add_objects(kg, relation_to_range_mapping, items_on_wikibase)
+    add_inverse_properties(inverse_properties, properties_in_wikibase, login_instance)
 
 
 if __name__ == "__main__":
