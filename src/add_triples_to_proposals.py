@@ -71,7 +71,9 @@ for kg in kg_list:
                 time_struct = strptime(row["object"], "%Y-%m-%d")
 
                 wikidata_time = strftime("+%Y-%m-%dT00:00:00Z", time_struct)
-                data.append(Time(wikidata_time, prop_nr="P23"))
+                data.append(
+                    Time(wikidata_time, prop_nr=properties_in_wikibase[property_name])
+                )
             elif property_name in quantity_properties:
                 if property_name in {
                     "Supporter Count",

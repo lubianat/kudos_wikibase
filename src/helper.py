@@ -17,6 +17,68 @@ wbi_config["USER_AGENT"] = "NounsWikibaseBot"
 
 login_instance = wbi_login.Clientlogin(user=WD_USER, password=WD_PASS)
 
+## Curate information on properties
+
+# Wikibase properties categorized by datatype
+item_properties = {
+    "Proposal Type",
+    "Transfer To",
+    "Proposer",
+    "Status",
+    "Previous Proposal",
+    "Supported By",
+    "Opposed By",
+    "Createedition To",
+    "Sendorregisterdebt To",
+    "Sendorregisterdebt To Nouns",
+    "Setproposalthresholdbps To",
+    "Abstained By",
+}
+
+inverse_properties = {
+    "Supported By": "Supported",
+    "Opposed By": "Opposed",
+    "Abstained By": "Abstained",
+    "Proposer": "Proposed",
+}
+
+# Mapping of relations to their corresponding range
+relation_to_range_mapping = {
+    "Proposal Type": "Proposal Type",
+    "Transfer To": "Individual",
+    "Proposer": "Individual",
+    "Supported By": "Individual",
+    "Opposed By": "Individual",
+    "Abstained By": "Individual",
+    "Previous Proposal": "Proposal",
+    "Status": "Status",
+    "Createedition To": "Individual",
+    "Sendorregisterdebt To Nouns": "Individual",
+    "Sendorregisterdebt To": "Individual",
+    "Setproposalthresholdbps To": "Individual",
+}
+
+date_properties = {"ExecutionETA", "Proposal Submission Date"}
+string_properties = {"Label", "Summary", "Team Name"}
+quantity_properties = {
+    "Transfer Value",
+    "Proposal Duration in Months",
+    "Proposal Budget",
+    "Supporter Count",
+    "Opposer Count",
+    "Abstain Count",
+    "Quorumvotes",
+    "Id",
+    "Team Size",
+    "Proposal Budget in USD",
+    "Proposal Budget in ETH",
+    "Proposal Budget in stETH",
+    "Transfer Value in ETH",
+    "Sendorregisterdebt Value To Nouns",
+    "Sendorregisterdebt Value",
+    "Setproposalthresholdbps Value",
+}
+
 
 def createProperty(
     label="",
@@ -131,66 +193,6 @@ def update_items_file():
 
 # Call the method to update the current_items.json file
 items_on_wikibase = update_items_file()
-
-# Wikibase properties categorized by datatype
-item_properties = {
-    "Proposal Type",
-    "Transfer To",
-    "Proposer",
-    "Status",
-    "Previous Proposal",
-    "Supported By",
-    "Opposed By",
-    "Createedition To",
-    "Sendorregisterdebt To",
-    "Sendorregisterdebt To Nouns",
-    "Setproposalthresholdbps To",
-    "Abstained By",
-}
-
-inverse_properties = {
-    "Supported By": "Supported",
-    "Opposed By": "Opposed",
-    "Abstained By": "Abstained",
-    "Proposer": "Proposed",
-}
-
-# Mapping of relations to their corresponding range
-relation_to_range_mapping = {
-    "Proposal Type": "Proposal Type",
-    "Transfer To": "Individual",
-    "Proposer": "Individual",
-    "Supported By": "Individual",
-    "Opposed By": "Individual",
-    "Abstained By": "Individual",
-    "Previous Proposal": "Proposal",
-    "Status": "Status",
-    "Createedition To": "Individual",
-    "Sendorregisterdebt To Nouns": "Individual",
-    "Sendorregisterdebt To": "Individual",
-    "Setproposalthresholdbps To": "Individual",
-}
-
-date_properties = {"ExecutionETA", "Proposal Submission Date"}
-string_properties = {"Label", "Summary", "Team Name"}
-quantity_properties = {
-    "Transfer Value",
-    "Proposal Duration in Months",
-    "Proposal Budget",
-    "Supporter Count",
-    "Opposer Count",
-    "Abstain Count",
-    "Quorumvotes",
-    "Id",
-    "Team Size",
-    "Proposal Budget in USD",
-    "Proposal Budget in ETH",
-    "Proposal Budget in stETH",
-    "Transfer Value in ETH",
-    "Sendorregisterdebt Value To Nouns",
-    "Sendorregisterdebt Value",
-    "Setproposalthresholdbps Value",
-}
 
 
 # Create property in wikibase if it doesn't exist

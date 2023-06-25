@@ -8,28 +8,44 @@ HERE = Path(__file__).parent.resolve()
 DATA = HERE.parent.joinpath("data").resolve()
 
 
+def main():
+    # Read the KG data
+
+    add_property_if_not_exists(
+        properties_in_wikibase,
+        "Vote Weight",
+        "Qualifier for 'Supported By' and 'Opposed By' properties. ",
+        "quantity",
+    )
+    add_property_if_not_exists(
+        properties_in_wikibase,
+        "Inverse Property",
+        "The inverse property in the graph. ",
+        "property",
+    )
+
+    add_range_types(relation_to_range_mapping)
+
+    kg = pd.read_csv(DATA.joinpath("KG_view1.csv"))
+
+    add_relation_types(kg)
+    add_proposals(kg, items_on_wikibase)
+    add_objects(kg, relation_to_range_mapping, items_on_wikibase)
+
+    kg = pd.read_csv(DATA.joinpath("KG_view2.csv"))
+
+    add_relation_types(kg)
+    add_proposals(kg, items_on_wikibase)
+    add_objects(kg, relation_to_range_mapping, items_on_wikibase)
+
+    add_inverse_properties(inverse_properties, properties_in_wikibase, login_instance)
+
+
 def add_property_if_not_exists(properties_in_wikibase, label, description, datatype):
     if label not in properties_in_wikibase.keys():
         new_property = createProperty(
             label=label, description=description, property_datatype=datatype
         )
-
-
-def add_node_types():
-    create_item_if_not_exists(
-        "Proposal",
-        "Proposal",
-        "The concept of a proposal in the Nouns platform.",
-        "Q1",
-        ["Nouns Proposal"],
-    )
-    create_item_if_not_exists(
-        "Currency",
-        "Currency",
-        "A currency used for transactions and/or proposals in Nouns Includes ETH, USDC and USD.",
-        "Q1",
-        ["monetary standard"],
-    )
 
 
 def add_relation_types(kg):
@@ -39,6 +55,13 @@ def add_relation_types(kg):
 
 
 def add_range_types(relation_to_range_mapping):
+    create_item_if_not_exists(
+        "Proposal",
+        "Proposal",
+        "The concept of a proposal in the Nouns platform.",
+        "Q1",
+        ["Nouns Proposal"],
+    )
     for range_type in set(relation_to_range_mapping.values()):
         create_item_if_not_exists(range_type, range_type, "A node type.", "Q1")
 
@@ -65,8 +88,6 @@ def add_objects(kg, relation_to_range_mapping, items_on_wikibase):
 
 
 def add_inverse_properties(inverse_properties, properties_in_wikibase, login_instance):
-    properties_in_wikibase["Inverse Property"] = "P61"
-    properties_in_wikibase["Abstained By"] = "P58"
     for relation_type, inverse in inverse_properties.items():
         if inverse not in properties_in_wikibase.keys():
             wbi = WikibaseIntegrator(login=login_instance)
@@ -81,41 +102,6 @@ def add_inverse_properties(inverse_properties, properties_in_wikibase, login_ins
             ]
             prop.claims.add(data)
             new_property = prop.write()
-
-
-def main():
-    # Read the KG data
-
-    add_property_if_not_exists(
-        properties_in_wikibase,
-        "Vote Weight",
-        "Qualifier for 'Supported By' and 'Opposed By' properties. ",
-        "quantity",
-    )
-    add_property_if_not_exists(
-        properties_in_wikibase,
-        "Inverse Property",
-        "The inverse property in the graph. ",
-        "property",
-    )
-
-    kg = pd.read_csv(DATA.joinpath("KG_view1.csv"))
-
-    add_node_types()
-    add_relation_types(kg)
-    add_range_types(relation_to_range_mapping)
-    add_proposals(kg, items_on_wikibase)
-    add_objects(kg, relation_to_range_mapping, items_on_wikibase)
-    add_inverse_properties(inverse_properties, properties_in_wikibase, login_instance)
-
-    kg = pd.read_csv(DATA.joinpath("KG_view2.csv"))
-
-    add_node_types()
-    add_relation_types(kg)
-    add_range_types(relation_to_range_mapping)
-    add_proposals(kg, items_on_wikibase)
-    add_objects(kg, relation_to_range_mapping, items_on_wikibase)
-    add_inverse_properties(inverse_properties, properties_in_wikibase, login_instance)
 
 
 if __name__ == "__main__":
