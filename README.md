@@ -66,7 +66,7 @@ Look for and substitute in the codebase the following properties for the IDs on 
 
 * "P6" - The "instance of" property, used for categorizing the entities in the Wikibase by type, present on most items. 
 * "P15" - The property for the numeric Nouns ID for each proposal 
-* "P21" - The property for the Nouns URL of the proposal
+* "P21" - The property for the Nouns https://github.com/LeMyst/WikibaseIntegrator/blob/4f2bcee7d1a869d651bd6ed4bea2f7134c16657d/wikibaseintegrator/models/claims.py#L51URL of the proposal
 
 Besides substituting these PIDs, the installation in a new Wikibase also needs to take into account  and substitute in the code 3 different QIDs: 
 
@@ -136,3 +136,6 @@ Different behaviors can be selected, and if that is desired the reader is referr
 
 
 
+## Setting up the "Proposals" and "Individuals pages
+
+(TODO)
