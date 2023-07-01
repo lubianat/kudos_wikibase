@@ -17,6 +17,13 @@ def main():
         "Qualifier for 'Supported By' and 'Opposed By' properties. ",
         "quantity",
     )
+
+    add_property_if_not_exists(
+        properties_in_wikibase,
+        "Vote Reason",
+        "Qualifier for vote properties. ",
+        "string",
+    )
     add_property_if_not_exists(
         properties_in_wikibase,
         "Inverse Property",

@@ -35,7 +35,7 @@ for kg in kg_list:
                 continue
 
             if property_name in item_properties:
-                if property_name in {"Supported By", "Opposed By"}:
+                if property_name in {"Supported By", "Opposed By", "Abstained By"}:
                     new_qualifiers = Qualifiers()
                     new_qualifiers.add(
                         Quantity(
@@ -43,7 +43,18 @@ for kg in kg_list:
                             amount=int(row["weight"]),
                         )
                     )
-
+                    if row["reason"] != "Reason not provided":
+                        reason = row["reason"]
+                        if len(reason) > 2499:
+                            reason = reason[0:2400]
+                        new_qualifiers.add(
+                            String(
+                                prop_nr=properties_in_wikibase["Vote Reason"],
+                                value=reason.replace("\n", "-")
+                                .replace('"', "")
+                                .strip(),
+                            )
+                        )
                     data.append(
                         Item(
                             value=items_on_wikibase[object_name],

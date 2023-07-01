@@ -17,6 +17,7 @@ kg2 = pd.read_csv(DATA.joinpath("KG_view2.csv"))
 
 kg_list = [kg1, kg2]
 proposals = set(kg1["subject"])
+properties_in_wikibase["Vote Reason"] = "P63"
 
 for kg in kg_list:
     individuals = set([a for a in kg["object"] if str(a).startswith("0x")])
@@ -42,6 +43,18 @@ for kg in kg_list:
                                 amount=int(row["weight"]),
                             )
                         )
+                        if row["reason"] != "Reason not provided":
+                            reason = row["reason"]
+                            if len(reason) > 2499:
+                                reason = reason[0:2400]
+                            new_qualifiers.add(
+                                String(
+                                    prop_nr=properties_in_wikibase["Vote Reason"],
+                                    value=reason.replace("\n", "-")
+                                    .replace('"', "")
+                                    .strip(),
+                                )
+                            )
                         data.append(
                             Item(
                                 value=items_on_wikibase[object_name],
