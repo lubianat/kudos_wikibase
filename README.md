@@ -138,4 +138,15 @@ Different behaviors can be selected, and if that is desired the reader is referr
 
 ## Setting up the "Proposals" and "Individuals pages
 
-(TODO)
+The Wikibase contains structured data alongside documentation pages. 
+To produce a nice visualization of the core entities in the Nouns Wikibase, two pages were added, one for "Individuals" and one for "Proposals".
+
+These pages contain each a different table in Wiki Markup detailing the entities. 
+
+These pages need to be updated manually as there is not any simple way, to date, to update programatically a documentation page of an Wikibase.
+To facilitate the process, the [create_wiki_tables.py](./src/create_wiki_tables.py) script generates two .txt documents containing the source code for the pages: [individuals.txt](individuals.txt) and [proposals.txt](proposals.txt).
+
+After generating the files, one just needs to go to one of the source pages, click on "Edit" and substitute the source code for the new and updated version:
+
+  * https://nounsdev.wikibase.cloud/wiki/Proposals
+  * https://nounsdev.wikibase.cloud/wiki/Individuals
