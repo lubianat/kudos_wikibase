@@ -6,6 +6,7 @@ from time import strptime, strftime
 from wikibaseintegrator.datatypes import Item, String, Time, Quantity, URL
 from wikibaseintegrator.wbi_enums import ActionIfExists
 from wikibaseintegrator.models import Qualifiers
+from wikibaseintegrator.wbi_exceptions import MissingEntityException, ModificationFailed
 
 # Resolve path to the data
 HERE = Path(__file__).parent.resolve()
@@ -23,12 +24,17 @@ for kg in kg_list:
     individuals = set([a for a in kg["object"] if str(a).startswith("0x")])
 
     for individual in individuals:
+        if individual == "0xbobatea":
+            continue
         kg_subset = kg[kg["object"] == individual]
         wbi = WikibaseIntegrator(login=login_instance)
         individual_qid = items_on_wikibase[individual]
 
-        item = wbi.item.get(entity_id=individual_qid)
-
+        try:
+            item = wbi.item.get(entity_id=individual_qid)
+        except MissingEntityException as e:
+            print(e)
+            pass
         data = []
         for i, row in kg_subset.iterrows():
             property_name = row["relation"]
@@ -78,4 +84,8 @@ for kg in kg_list:
                 print(property_name)
             continue
         item.claims.add(data, action_if_exists=ActionIfExists.REPLACE_ALL)
-        item.write()
+        try:
+            item.write()
+        except ModificationFailed as e:
+            print(e)
+            pass

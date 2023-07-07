@@ -3,7 +3,7 @@ from wikibaseintegrator import wbi_login, WikibaseIntegrator
 from wikibaseintegrator.wbi_config import config as wbi_config
 from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.datatypes import Item, Property
-from wikibaseintegrator.wbi_exceptions import ModificationFailed
+from wikibaseintegrator.wbi_exceptions import ModificationFailed, MWApiError
 from requests.exceptions import HTTPError
 
 wikibase_prefix = "nounsdev"
@@ -89,9 +89,13 @@ def createProperty(
     prop = wbi.property.new(datatype=property_datatype)
     prop.labels.set(language="en", value=label)
     prop.descriptions.set(language="en", value=description)
-    new_property = prop.write()
+    try:
+        new_property = prop.write()
+        return new_property
 
-    return new_property
+    except MWApiError as e:
+        print(e)
+        pass
 
 
 def get_properties_in_wikibase():

@@ -6,6 +6,7 @@ from time import strptime, strftime
 from wikibaseintegrator.datatypes import Item, String, Time, Quantity, URL
 from wikibaseintegrator.wbi_enums import ActionIfExists
 from wikibaseintegrator.models import Qualifiers
+from wikibaseintegrator.wbi_exceptions import ModificationFailed
 
 # Resolve path to the data
 HERE = Path(__file__).parent.resolve()
@@ -110,4 +111,8 @@ for kg in kg_list:
                 print(property_name)
             continue
         item.claims.add(data, action_if_exists=ActionIfExists.REPLACE_ALL)
-        item.write()
+        try:
+            item.write()
+        except ModificationFailed as e:
+            print(e)
+            pass
