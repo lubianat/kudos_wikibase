@@ -84,7 +84,6 @@ def add_proposals(kg, items_on_wikibase):
 
 def add_objects(kg, relation_to_range_mapping, items_on_wikibase):
     for property, range in relation_to_range_mapping.items():
-        print(property)
         kg_subset = kg[kg["relation"] == property]
         objects = set(kg_subset["object"])
         for object in objects:
