@@ -1,5 +1,4 @@
 import pandas as pd
-from pathlib import Path
 from helper import *
 from login import *
 
@@ -10,14 +9,12 @@ DATA = HERE.parent.joinpath("data").resolve()
 
 def main():
     # Read the KG data
-
     add_property_if_not_exists(
         properties_in_wikibase,
         "Vote Weight",
         "Qualifier for 'Supported By' and 'Opposed By' properties. ",
         "quantity",
     )
-
     add_property_if_not_exists(
         properties_in_wikibase,
         "Vote Reason",
@@ -33,17 +30,14 @@ def main():
 
     add_range_types(relation_to_range_mapping)
 
-    kg = pd.read_csv(DATA.joinpath("KG_view1.csv"))
+    kg1 = pd.read_csv(DATA.joinpath("KG_view1.csv"))
+    kg2 = pd.read_csv(DATA.joinpath("KG_view2.csv"))
+    kg_list = [kg1, kg2]
 
-    add_relation_types(kg)
-    add_proposals(kg, items_on_wikibase)
-    add_objects(kg, relation_to_range_mapping, items_on_wikibase)
-
-    kg = pd.read_csv(DATA.joinpath("KG_view2.csv"))
-
-    add_relation_types(kg)
-    add_proposals(kg, items_on_wikibase)
-    add_objects(kg, relation_to_range_mapping, items_on_wikibase)
+    for kg in kg_list:
+        add_relation_types(kg)
+        add_proposals(kg, items_on_wikibase)
+        add_objects(kg, relation_to_range_mapping, items_on_wikibase)
 
     add_inverse_properties(inverse_properties, properties_in_wikibase, login_instance)
 

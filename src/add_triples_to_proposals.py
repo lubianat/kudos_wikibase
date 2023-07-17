@@ -37,6 +37,8 @@ def main():
     proposals.sort()
 
     for kg in kg_list:
+        print("====== Adding triples to proposals =====")
+        logging.info("====== Adding triples to proposals =====")
         for proposal in tqdm(proposals):
             try:
                 kg_subset = kg[kg["subject"] == proposal]

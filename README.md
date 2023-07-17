@@ -135,7 +135,6 @@ This behavior is set by the `action_if_exists` parameter, present in the snippet
 Different behaviors can be selected, and if that is desired the reader is referred to the [WikibaseIntegrator documentation](https://github.com/LeMyst/WikibaseIntegrator/blob/4f2bcee7d1a869d651bd6ed4bea2f7134c16657d/wikibaseintegrator/models/claims.py#L51).
 
 
-
 ## Setting up the "Proposals" and "Individuals pages
 
 The Wikibase contains structured data alongside documentation pages. 

@@ -6,6 +6,11 @@ from wikibaseintegrator.datatypes import Item, Property
 from wikibaseintegrator.wbi_exceptions import ModificationFailed, MWApiError
 from requests.exceptions import HTTPError
 
+from pathlib import Path
+import json
+import re
+import logging
+
 wikibase_prefix = "nounsdev"
 wbi_config["MEDIAWIKI_API_URL"] = f"https://{wikibase_prefix}.wikibase.cloud/w/api.php"
 wbi_config[
@@ -16,6 +21,13 @@ wbi_config["WIKIBASE_URL"] = f"https://{wikibase_prefix}.wikibase.cloud"
 wbi_config["USER_AGENT"] = "NounsWikibaseBot"
 
 login_instance = wbi_login.Clientlogin(user=WD_USER, password=WD_PASS)
+
+logging.basicConfig(
+    filename="log_file.log",
+    level=logging.INFO,
+    format="%(asctime)s:%(levelname)s:%(message)s",
+)
+
 
 ## Curate information on properties
 
@@ -145,10 +157,6 @@ def get_items_on_wikibase():
 properties_in_wikibase = get_properties_in_wikibase()
 items_on_wikibase = get_items_on_wikibase()
 
-from pathlib import Path
-import json
-
-from pathlib import Path
 
 # Get the current working directory
 HERE = Path(__file__).parent.resolve()
@@ -223,9 +231,6 @@ def create_property_if_not_exists(property_name):
         return new_property
     else:
         return None
-
-
-import re
 
 
 def create_item_if_not_exists(

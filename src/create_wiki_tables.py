@@ -36,11 +36,8 @@ wikibase_prefix = "nounsdev"
 query = """
     SELECT ?item ?itemLabel ?nouns_url WHERE {
         ?item <https://nounsdev.wikibase.cloud/prop/direct/P6> <https://nounsdev.wikibase.cloud/entity/Q2> . 
-
         ?item <https://nounsdev.wikibase.cloud/prop/direct/P15> ?id . 
-
         ?item <https://nounsdev.wikibase.cloud/prop/direct/P21> ?nouns_url . 
-
         ?item rdfs:label ?itemLabel
     }
     ORDER BY ?id

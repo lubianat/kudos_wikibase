@@ -1,4 +1,4 @@
-2023-07-14 19:28:53,328:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:38:03,648:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -9,8 +9,8 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 19:28:53,333:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
-2023-07-14 19:29:24,628:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:38:03,649:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:40:55,072:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -21,12 +21,8 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 19:29:24,628:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
-2023-07-14 19:37:42,112:ERROR:MissingEntityException encountered: The MW API returned that the entity was missing.
-2023-07-14 19:42:23,280:ERROR:MissingEntityException encountered: The MW API returned that the entity was missing.
-2023-07-14 19:42:36,575:ERROR:KeyError encountered: '0xd895eec6767970660a846423a409e83454e9ea95'
-2023-07-14 19:42:45,283:ERROR:MissingEntityException encountered: The MW API returned that the entity was missing.
-2023-07-14 19:55:43,340:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:40:55,073:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:41:54,773:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -37,8 +33,32 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 19:55:43,341:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 19:55:48,721:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:41:54,773:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:42:04,808:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:42:04,809:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:42:14,035:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q351|Q351]] not found'
+2023-07-17 10:42:14,036:ERROR:Failed to write item: '[[Item:Q351|Q351]] not found'
+2023-07-17 10:42:15,253:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -49,15 +69,56 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-14 19:55:48,722:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-14 19:57:31,356:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 19:57:31,358:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 19:57:31,359:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 19:57:31,360:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 19:57:33,956:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 19:57:33,956:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 19:57:42,759:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 19:57:44,443:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:42:15,254:ERROR:Failed to write item: '[[Item:Q334|Q334]] not found'
+2023-07-17 10:42:18,121:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q346|Q346]] not found'
+2023-07-17 10:42:18,122:ERROR:Failed to write item: '[[Item:Q346|Q346]] not found'
+2023-07-17 10:42:19,350:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q346|Q346]] not found'
+2023-07-17 10:42:19,351:ERROR:Failed to write item: '[[Item:Q346|Q346]] not found'
+2023-07-17 10:45:31,427:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: 'Malformed input: Although the idea of the game show seems fun, I just don’t see a fit for nouns.\u2028 We won’t have a dedicated video ready in time, leaving us with nothing more than a game with noggles floating in space. So people won’t get an idea about nouns in any case. I don’t see nouns promoting our nounish-ness as a commercialised video add where the only thing we do is promoting a prize pool we have nothing to do with. It does not fit us. If we want to reach an audience via pure adds I would suggest making a full page in the NYT or some other newspaper/magazine.'
+2023-07-17 10:45:31,428:ERROR:Failed to write item: 'Malformed input: Although the idea of the game show seems fun, I just don’t see a fit for nouns.\u2028 We won’t have a dedicated video ready in time, leaving us with nothing more than a game with noggles floating in space. So people won’t get an idea about nouns in any case. I don’t see nouns promoting our nounish-ness as a commercialised video add where the only thing we do is promoting a prize pool we have nothing to do with. It does not fit us. If we want to reach an audience via pure adds I would suggest making a full page in the NYT or some other newspaper/magazine.'
+2023-07-17 10:45:43,543:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: 'Malformed input: Keep up the good work CDT!\u2028 ---------------------------- Good morning @Will!\u2028 ----------------------\u2028 I don’t think it’s a good idea to have censored my Discord post about Poap.eth’s 10 million dollar ‘never going to be accepted’ cryptopunk bid. It was a blatant and cheesy attempt at self-promotion to the punk community. This is historically relevant to understand that these actions are not in isolation.\u2028\u2028 Why is it okay to throw guys like Machi (another Nouner) under the bus publicly (who BTW rightfully deserves the criticism) but not a guy who has so many instances of manipulative tactics who many believe is a detriment to the project. How many screenshots of comments with their own words (anti-Nounder, anti-veto, delegation blackmail, etc) need to be posted in order for the Nouns ecosystem to realize this? Anyhow, I’m done with ranting about this topic. As they say, “you make the bed you lie in.”'
+2023-07-17 10:45:43,543:ERROR:Failed to write item: 'Malformed input: Keep up the good work CDT!\u2028 ---------------------------- Good morning @Will!\u2028 ----------------------\u2028 I don’t think it’s a good idea to have censored my Discord post about Poap.eth’s 10 million dollar ‘never going to be accepted’ cryptopunk bid. It was a blatant and cheesy attempt at self-promotion to the punk community. This is historically relevant to understand that these actions are not in isolation.\u2028\u2028 Why is it okay to throw guys like Machi (another Nouner) under the bus publicly (who BTW rightfully deserves the criticism) but not a guy who has so many instances of manipulative tactics who many believe is a detriment to the project. How many screenshots of comments with their own words (anti-Nounder, anti-veto, delegation blackmail, etc) need to be posted in order for the Nouns ecosystem to realize this? Anyhow, I’m done with ranting about this topic. As they say, “you make the bed you lie in.”'
+2023-07-17 10:46:00,439:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -68,15 +129,8 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 19:57:44,444:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:03:59,651:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 20:03:59,654:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 20:03:59,656:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 20:03:59,658:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:04:07,633:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:04:07,634:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 20:04:15,539:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 20:04:18,175:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:46:00,439:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:46:38,327:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -87,27 +141,8 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:04:18,176:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:04:24,252:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:04:24,252:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:05:21,305:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 20:05:21,306:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 20:05:21,306:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 20:05:21,306:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:05:26,504:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:05:26,505:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 20:05:38,663:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 20:05:41,629:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:46:38,327:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:46:59,832:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -118,94 +153,8 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:05:41,630:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:05:49,928:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:05:49,929:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:20:05,950:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 20:20:05,951:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 20:20:05,952:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 20:20:05,952:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:20:15,219:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:20:15,219:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 20:20:35,637:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 20:20:40,145:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:20:40,147:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:20:51,094:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:20:51,095:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:21:41,472:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 20:21:41,473:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 20:21:41,473:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 20:21:41,474:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:21:46,644:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:21:46,644:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 20:21:58,471:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 20:22:01,541:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:22:01,542:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:22:10,142:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:22:10,143:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:26:50,823:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:26:50,824:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:27:57,868:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:46:59,833:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:47:03,213:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -216,25 +165,8 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q348|Q348]] not found'
-2023-07-14 20:27:57,869:ERROR:ModificationFailed error encountered: '[[Item:Q348|Q348]] not found'
-2023-07-14 20:28:12,841:ERROR:KeyError encountered: 'Proposal 304'
-2023-07-14 20:28:12,841:ERROR:KeyError encountered: 'Proposal 308'
-2023-07-14 20:28:12,842:ERROR:KeyError encountered: 'Proposal 311'
-2023-07-14 20:28:12,842:ERROR:KeyError encountered: 'Proposal 317'
-2023-07-14 20:28:12,843:ERROR:KeyError encountered: 'Proposal 318'
-2023-07-14 20:28:12,843:ERROR:KeyError encountered: 'Proposal 319'
-2023-07-14 20:30:35,260:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 20:30:37,940:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 20:30:37,941:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 20:30:37,941:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:30:38,600:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 20:30:38,600:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:30:38,601:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 20:30:40,052:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:30:44,638:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:30:44,639:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 20:30:44,639:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 20:30:52,481:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:47:03,213:ERROR:Failed to write item: '[[Item:Q348|Q348]] not found'
+2023-07-17 10:47:07,718:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -244,12 +176,9 @@ Traceback (most recent call last):
     return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:30:52,482:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:30:54,699:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:30:55,285:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 20:30:55,286:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 20:31:01,697:ERROR:Error while writing to the Wikibase instance
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q351|Q351]] not found'
+2023-07-17 10:47:07,718:ERROR:Failed to write item: '[[Item:Q351|Q351]] not found'
+2023-07-17 10:47:09,355:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -260,9 +189,20 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:31:01,697:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:31:01,698:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 20:31:05,074:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:47:09,355:ERROR:Failed to write item: '[[Item:Q334|Q334]] not found'
+2023-07-17 10:47:36,493:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: 'Data value corrupt:'
+2023-07-17 10:47:36,493:ERROR:Failed to write item: 'Data value corrupt:'
+2023-07-17 10:49:24,118:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -273,82 +213,8 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:31:05,075:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 20:31:06,098:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:31:06,099:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:31:06,101:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:31:08,484:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 20:31:12,775:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:31:12,776:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-14 20:31:16,183:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 20:54:35,745:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 20:54:35,746:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 20:54:35,747:ERROR:KeyError encountered: 'Proposal 304'
-2023-07-14 20:54:35,748:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:54:35,749:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:54:35,750:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:54:35,752:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:54:35,753:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:54:35,754:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 20:54:35,755:ERROR:KeyError encountered: 'Proposal 308'
-2023-07-14 20:54:35,756:ERROR:KeyError encountered: 'Proposal 311'
-2023-07-14 20:54:35,757:ERROR:KeyError encountered: 'Proposal 311'
-2023-07-14 20:54:35,758:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:54:35,759:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:54:35,760:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:54:35,761:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:54:35,762:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:54:35,762:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 20:54:35,763:ERROR:KeyError encountered: 'Proposal 317'
-2023-07-14 20:54:35,764:ERROR:KeyError encountered: 'Proposal 317'
-2023-07-14 20:54:35,764:ERROR:KeyError encountered: 'Proposal 318'
-2023-07-14 20:54:35,765:ERROR:KeyError encountered: 'Proposal 319'
-2023-07-14 21:08:43,093:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 21:18:54,414:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 21:18:54,415:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 21:18:54,415:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 21:18:55,233:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 21:18:55,233:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 21:18:55,234:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 21:18:55,857:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 21:18:56,943:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 21:18:56,943:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 21:18:56,944:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 21:18:59,767:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 21:19:00,349:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 21:19:00,350:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 21:19:02,085:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 21:19:02,877:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 21:19:03,775:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 21:19:06,252:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 21:23:35,309:ERROR:KeyError encountered: 'Proposal 307'
-2023-07-14 21:23:35,309:ERROR:KeyError encountered: 'Proposal 315'
-2023-07-14 21:23:35,310:ERROR:KeyError encountered: 'Proposal 313'
-2023-07-14 21:23:35,310:ERROR:KeyError encountered: 'Proposal 316'
-2023-07-14 21:23:40,388:ERROR:KeyError encountered: 'Proposal 306'
-2023-07-14 21:23:40,388:ERROR:KeyError encountered: 'Proposal 303'
-2023-07-14 21:23:52,162:ERROR:KeyError encountered: 'Proposal 305'
-2023-07-14 21:23:55,439:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:49:24,119:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:49:55,659:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -359,20 +225,8 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 21:23:55,440:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 21:24:03,307:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-14 21:24:03,307:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-14 21:28:33,858:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:49:55,660:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:50:09,074:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -383,8 +237,128 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-14 21:28:33,859:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-14 21:29:41,237:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:50:09,074:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:50:12,658:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:50:12,658:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:50:15,320:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q351|Q351]] not found'
+2023-07-17 10:50:15,321:ERROR:Failed to write item: '[[Item:Q351|Q351]] not found'
+2023-07-17 10:50:16,447:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
+2023-07-17 10:50:16,448:ERROR:Failed to write item: '[[Item:Q334|Q334]] not found'
+2023-07-17 10:50:17,472:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q346|Q346]] not found'
+2023-07-17 10:50:17,472:ERROR:Failed to write item: '[[Item:Q346|Q346]] not found'
+2023-07-17 10:50:18,392:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q346|Q346]] not found'
+2023-07-17 10:50:18,393:ERROR:Failed to write item: '[[Item:Q346|Q346]] not found'
+2023-07-17 10:51:21,575:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: 'Malformed input: Although the idea of the game show seems fun, I just don’t see a fit for nouns.\u2028 We won’t have a dedicated video ready in time, leaving us with nothing more than a game with noggles floating in space. So people won’t get an idea about nouns in any case. I don’t see nouns promoting our nounish-ness as a commercialised video add where the only thing we do is promoting a prize pool we have nothing to do with. It does not fit us. If we want to reach an audience via pure adds I would suggest making a full page in the NYT or some other newspaper/magazine.'
+2023-07-17 10:51:21,576:ERROR:Failed to write item: 'Malformed input: Although the idea of the game show seems fun, I just don’t see a fit for nouns.\u2028 We won’t have a dedicated video ready in time, leaving us with nothing more than a game with noggles floating in space. So people won’t get an idea about nouns in any case. I don’t see nouns promoting our nounish-ness as a commercialised video add where the only thing we do is promoting a prize pool we have nothing to do with. It does not fit us. If we want to reach an audience via pure adds I would suggest making a full page in the NYT or some other newspaper/magazine.'
+2023-07-17 10:51:33,589:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: 'Malformed input: Keep up the good work CDT!\u2028 ---------------------------- Good morning @Will!\u2028 ----------------------\u2028 I don’t think it’s a good idea to have censored my Discord post about Poap.eth’s 10 million dollar ‘never going to be accepted’ cryptopunk bid. It was a blatant and cheesy attempt at self-promotion to the punk community. This is historically relevant to understand that these actions are not in isolation.\u2028\u2028 Why is it okay to throw guys like Machi (another Nouner) under the bus publicly (who BTW rightfully deserves the criticism) but not a guy who has so many instances of manipulative tactics who many believe is a detriment to the project. How many screenshots of comments with their own words (anti-Nounder, anti-veto, delegation blackmail, etc) need to be posted in order for the Nouns ecosystem to realize this? Anyhow, I’m done with ranting about this topic. As they say, “you make the bed you lie in.”'
+2023-07-17 10:51:33,590:ERROR:Failed to write item: 'Malformed input: Keep up the good work CDT!\u2028 ---------------------------- Good morning @Will!\u2028 ----------------------\u2028 I don’t think it’s a good idea to have censored my Discord post about Poap.eth’s 10 million dollar ‘never going to be accepted’ cryptopunk bid. It was a blatant and cheesy attempt at self-promotion to the punk community. This is historically relevant to understand that these actions are not in isolation.\u2028\u2028 Why is it okay to throw guys like Machi (another Nouner) under the bus publicly (who BTW rightfully deserves the criticism) but not a guy who has so many instances of manipulative tactics who many believe is a detriment to the project. How many screenshots of comments with their own words (anti-Nounder, anti-veto, delegation blackmail, etc) need to be posted in order for the Nouns ecosystem to realize this? Anyhow, I’m done with ranting about this topic. As they say, “you make the bed you lie in.”'
+2023-07-17 10:51:48,814:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:51:48,815:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:52:25,065:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:52:25,066:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:52:38,787:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:52:38,787:ERROR:Failed to write item: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:52:42,473:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -395,29 +369,156 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q348|Q348]] not found'
-2023-07-14 21:29:41,238:ERROR:ModificationFailed error encountered: '[[Item:Q348|Q348]] not found'
-2023-07-14 21:29:55,269:ERROR:KeyError encountered: 'Proposal 304'
-2023-07-14 21:29:55,269:ERROR:KeyError encountered: 'Proposal 308'
-2023-07-14 21:29:55,270:ERROR:KeyError encountered: 'Proposal 311'
-2023-07-14 21:29:55,270:ERROR:KeyError encountered: 'Proposal 317'
-2023-07-14 21:29:55,270:ERROR:KeyError encountered: 'Proposal 318'
-2023-07-14 21:29:55,271:ERROR:KeyError encountered: 'Proposal 319'
-2023-07-14 23:04:53,695:ERROR:Error while writing to the Wikibase instance
+2023-07-17 10:52:42,474:ERROR:Failed to write item: '[[Item:Q348|Q348]] not found'
+2023-07-17 10:52:45,642:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
     return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 190, in mediawiki_api_call_helper
-    data.update({'token': login.get_edit_token()})
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_login.py", line 92, in get_edit_token
-    self.generate_edit_credentials()
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_login.py", line 68, in generate_edit_credentials
-    raise LoginError("Login failed. An anonymous token was returned.")
-wikibaseintegrator.wbi_login.LoginError: Login failed. An anonymous token was returned.
-2023-07-17 11:54:14,366:INFO:====== update_q_and_a =====
-2023-07-17 11:55:42,064:INFO:====== update_q_and_a =====
-2023-07-17 11:56:29,653:ERROR:Error while writing to the Wikibase instance
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q351|Q351]] not found'
+2023-07-17 10:52:45,643:ERROR:Failed to write item: '[[Item:Q351|Q351]] not found'
+2023-07-17 10:52:46,979:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
+2023-07-17 10:52:46,980:ERROR:Failed to write item: '[[Item:Q334|Q334]] not found'
+2023-07-17 10:52:55,486:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: 'Data value corrupt:'
+2023-07-17 10:52:55,486:ERROR:Failed to write item: 'Data value corrupt:'
+2023-07-17 10:53:45,172:INFO:====== update_proposal_channel_mapping =====
+2023-07-17 10:54:53,447:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:54:53,449:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
+2023-07-17 10:55:05,751:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
+2023-07-17 10:55:05,752:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
+2023-07-17 11:00:42,883:ERROR:Service unavailable (HTTP Code 502). Sleeping for 60 seconds.
+2023-07-17 11:02:20,514:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
+2023-07-17 11:02:20,515:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
+2023-07-17 11:03:29,495:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q348|Q348]] not found'
+2023-07-17 11:03:29,496:ERROR:ModificationFailed error encountered: '[[Item:Q348|Q348]] not found'
+2023-07-17 11:06:13,617:INFO:====== update_summaries =====
+2023-07-17 11:06:53,066:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
+2023-07-17 11:06:53,067:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
+2023-07-17 11:07:08,700:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
+2023-07-17 11:07:08,700:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
+2023-07-17 11:07:12,438:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
+2023-07-17 11:07:12,439:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
+2023-07-17 11:07:13,475:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
+2023-07-17 11:07:13,475:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
+2023-07-17 11:07:26,345:ERROR:Error while writing to the Wikibase instance
+Traceback (most recent call last):
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
+    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
+    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
+    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
+  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
+    raise ModificationFailed(json_data['error'])
+wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
+2023-07-17 11:07:26,345:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
+2023-07-17 11:07:34,813:INFO:====== update_q_and_a =====
+2023-07-17 11:14:46,985:ERROR:Error while writing to the Wikibase instance
 Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
     json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
@@ -428,89 +529,4 @@ Traceback (most recent call last):
   File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
     raise ModificationFailed(json_data['error'])
 wikibaseintegrator.wbi_exceptions.ModificationFailed: 'Malformed input: Overall this is great. I’m glad we’re seeing Brian’s more often now. It was an ambitious change and he killed it. It’s a very smart use of real estate and since the Activity rows are clickable it’ll drive traffic to Proposals.--**\u2028\u2028Questions**-- What does “Last seen today” mean?-- What’s the hover color for the buttons, similar blue or reddish? --**\u2028Loved**-- Nav buttons are great, I love the blue for Connect-- “Noun {auctionNum}” to Londrina font is perfect-- I like the cool background-- LOVE the next-minimum-bid being the input-placeholder, perfect- - Would still watch that font size. In mobile input, it seems like a placeholder of a “wider” 3-digit bid like 2xx.69 (vs 1xx.69) may be crowded--**Notes**-- Not crazy about Treasury component being by Home logo. Not used to seeing anything near a top-left logo.- - It’s better on mobile, maybe truly centered though?-- Winning Bid numbers being that big make me wonder about triple digits bids & spacing. I guess, you won’t have the thousandths place decimal so it’ll even out. Maybe still slightly big font? Since it’s the same for winning address try substituting for “beautifulpunks.eth” or “davidzhorvath.eth” or even “marvelvscapcom.eth” to make sure it’ll fit. Those are some of the longer bidders we see.-- Lastly, on mobile, I feel like “Noun {auctionNum}” should be the first thing directly under the Noun, I know it’s a lot to fit in there. Maybe try just flipping arrows/date with “Noun {auctionNum}” just to see--Again, just my $0.02. Really impressed, and again glad you guys are tag-teaming this.'
-2023-07-17 11:56:29,655:ERROR:ModificationFailed error encountered: 'Malformed input: Overall this is great. I’m glad we’re seeing Brian’s more often now. It was an ambitious change and he killed it. It’s a very smart use of real estate and since the Activity rows are clickable it’ll drive traffic to Proposals.--**\u2028\u2028Questions**-- What does “Last seen today” mean?-- What’s the hover color for the buttons, similar blue or reddish? --**\u2028Loved**-- Nav buttons are great, I love the blue for Connect-- “Noun {auctionNum}” to Londrina font is perfect-- I like the cool background-- LOVE the next-minimum-bid being the input-placeholder, perfect- - Would still watch that font size. In mobile input, it seems like a placeholder of a “wider” 3-digit bid like 2xx.69 (vs 1xx.69) may be crowded--**Notes**-- Not crazy about Treasury component being by Home logo. Not used to seeing anything near a top-left logo.- - It’s better on mobile, maybe truly centered though?-- Winning Bid numbers being that big make me wonder about triple digits bids & spacing. I guess, you won’t have the thousandths place decimal so it’ll even out. Maybe still slightly big font? Since it’s the same for winning address try substituting for “beautifulpunks.eth” or “davidzhorvath.eth” or even “marvelvscapcom.eth” to make sure it’ll fit. Those are some of the longer bidders we see.-- Lastly, on mobile, I feel like “Noun {auctionNum}” should be the first thing directly under the Noun, I know it’s a lot to fit in there. Maybe try just flipping arrows/date with “Noun {auctionNum}” just to see--Again, just my $0.02. Really impressed, and again glad you guys are tag-teaming this.'
-2023-07-17 11:59:08,073:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: 'Malformed input: Overall this is great. I’m glad we’re seeing Brian’s more often now. It was an ambitious change and he killed it. It’s a very smart use of real estate and since the Activity rows are clickable it’ll drive traffic to Proposals.--**\u2028\u2028Questions**-- What does “Last seen today” mean?-- What’s the hover color for the buttons, similar blue or reddish? --**\u2028Loved**-- Nav buttons are great, I love the blue for Connect-- “Noun {auctionNum}” to Londrina font is perfect-- I like the cool background-- LOVE the next-minimum-bid being the input-placeholder, perfect- - Would still watch that font size. In mobile input, it seems like a placeholder of a “wider” 3-digit bid like 2xx.69 (vs 1xx.69) may be crowded--**Notes**-- Not crazy about Treasury component being by Home logo. Not used to seeing anything near a top-left logo.- - It’s better on mobile, maybe truly centered though?-- Winning Bid numbers being that big make me wonder about triple digits bids & spacing. I guess, you won’t have the thousandths place decimal so it’ll even out. Maybe still slightly big font? Since it’s the same for winning address try substituting for “beautifulpunks.eth” or “davidzhorvath.eth” or even “marvelvscapcom.eth” to make sure it’ll fit. Those are some of the longer bidders we see.-- Lastly, on mobile, I feel like “Noun {auctionNum}” should be the first thing directly under the Noun, I know it’s a lot to fit in there. Maybe try just flipping arrows/date with “Noun {auctionNum}” just to see--Again, just my $0.02. Really impressed, and again glad you guys are tag-teaming this.'
-2023-07-17 11:59:08,075:ERROR:ModificationFailed error encountered: 'Malformed input: Overall this is great. I’m glad we’re seeing Brian’s more often now. It was an ambitious change and he killed it. It’s a very smart use of real estate and since the Activity rows are clickable it’ll drive traffic to Proposals.--**\u2028\u2028Questions**-- What does “Last seen today” mean?-- What’s the hover color for the buttons, similar blue or reddish? --**\u2028Loved**-- Nav buttons are great, I love the blue for Connect-- “Noun {auctionNum}” to Londrina font is perfect-- I like the cool background-- LOVE the next-minimum-bid being the input-placeholder, perfect- - Would still watch that font size. In mobile input, it seems like a placeholder of a “wider” 3-digit bid like 2xx.69 (vs 1xx.69) may be crowded--**Notes**-- Not crazy about Treasury component being by Home logo. Not used to seeing anything near a top-left logo.- - It’s better on mobile, maybe truly centered though?-- Winning Bid numbers being that big make me wonder about triple digits bids & spacing. I guess, you won’t have the thousandths place decimal so it’ll even out. Maybe still slightly big font? Since it’s the same for winning address try substituting for “beautifulpunks.eth” or “davidzhorvath.eth” or even “marvelvscapcom.eth” to make sure it’ll fit. Those are some of the longer bidders we see.-- Lastly, on mobile, I feel like “Noun {auctionNum}” should be the first thing directly under the Noun, I know it’s a lot to fit in there. Maybe try just flipping arrows/date with “Noun {auctionNum}” just to see--Again, just my $0.02. Really impressed, and again glad you guys are tag-teaming this.'
-2023-07-17 12:02:08,102:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-17 12:02:08,103:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-17 12:03:12,412:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-17 12:03:12,413:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-17 12:03:21,218:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q348|Q348]] not found'
-2023-07-17 12:03:21,219:ERROR:ModificationFailed error encountered: '[[Item:Q348|Q348]] not found'
-2023-07-17 12:03:26,170:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-17 12:03:26,172:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
-2023-07-17 12:03:59,946:INFO:====== update_proposal_channel_mapping =====
-2023-07-17 12:05:05,055:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q349|Q349]] not found'
-2023-07-17 12:05:05,056:ERROR:ModificationFailed error encountered: '[[Item:Q349|Q349]] not found'
-2023-07-17 12:05:17,647:ERROR:Error while writing to the Wikibase instance
-Traceback (most recent call last):
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/entities/baseentity.py", line 244, in _write
-    json_result: dict = edit_entity(data=data, id=entity_id, type=self.type, summary=summary, clear=clear, is_bot=is_bot, allow_anonymous=allow_anonymous,
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 335, in edit_entity
-    return mediawiki_api_call_helper(data=params, is_bot=is_bot, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 217, in mediawiki_api_call_helper
-    return mediawiki_api_call('POST', mediawiki_api_url=mediawiki_api_url, session=session, data=data, headers=headers, max_retries=max_retries, retry_after=retry_after, **kwargs)
-  File "/home/lubianat/Documents/base_venv/lib/python3.9/site-packages/wikibaseintegrator/wbi_helpers.py", line 127, in mediawiki_api_call
-    raise ModificationFailed(json_data['error'])
-wikibaseintegrator.wbi_exceptions.ModificationFailed: '[[Item:Q334|Q334]] not found'
-2023-07-17 12:05:17,647:ERROR:ModificationFailed error encountered: '[[Item:Q334|Q334]] not found'
+2023-07-17 11:14:46,986:ERROR:ModificationFailed error encountered: 'Malformed input: Overall this is great. I’m glad we’re seeing Brian’s more often now. It was an ambitious change and he killed it. It’s a very smart use of real estate and since the Activity rows are clickable it’ll drive traffic to Proposals.--**\u2028\u2028Questions**-- What does “Last seen today” mean?-- What’s the hover color for the buttons, similar blue or reddish? --**\u2028Loved**-- Nav buttons are great, I love the blue for Connect-- “Noun {auctionNum}” to Londrina font is perfect-- I like the cool background-- LOVE the next-minimum-bid being the input-placeholder, perfect- - Would still watch that font size. In mobile input, it seems like a placeholder of a “wider” 3-digit bid like 2xx.69 (vs 1xx.69) may be crowded--**Notes**-- Not crazy about Treasury component being by Home logo. Not used to seeing anything near a top-left logo.- - It’s better on mobile, maybe truly centered though?-- Winning Bid numbers being that big make me wonder about triple digits bids & spacing. I guess, you won’t have the thousandths place decimal so it’ll even out. Maybe still slightly big font? Since it’s the same for winning address try substituting for “beautifulpunks.eth” or “davidzhorvath.eth” or even “marvelvscapcom.eth” to make sure it’ll fit. Those are some of the longer bidders we see.-- Lastly, on mobile, I feel like “Noun {auctionNum}” should be the first thing directly under the Noun, I know it’s a lot to fit in there. Maybe try just flipping arrows/date with “Noun {auctionNum}” just to see--Again, just my $0.02. Really impressed, and again glad you guys are tag-teaming this.'
